@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Card>
+    <Eng>explain</Eng>
+    <EngDesc>This chapter explained that...</EngDesc>
+    <Transcription>[ɪks'pleɪn]</Transcription>
+    <Rus>объяснять</Rus>
+    <RusDesc>В этой главе объяснялось что ...</RusDesc>
+    <WordType>6</WordType>
+    <Rank>5</Rank>
+  </Card>
+  <Card>
+    <Eng>explain1</Eng>
+    <EngDesc>This chapter explained that...</EngDesc>
+    <Transcription>[ɪks'pleɪn]</Transcription>
+    <Rus>text</Rus>
+    <RusDesc>text</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>explain1</Eng>
+    <EngDesc>This chapter explained that...</EngDesc>
+    <Transcription>[ɪks'pleɪn]</Transcription>
+    <Rus>Объяснять</Rus>
+    <RusDesc />
+    <WordType>0</WordType>
+    <Rank>2</Rank>
+  </Card>
+</ArrayOfCard>
