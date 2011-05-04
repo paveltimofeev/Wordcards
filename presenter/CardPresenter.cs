@@ -5,8 +5,12 @@ using System.Text;
 
 namespace presenter
 {
-    public class CardPresenter
+    /// <summary>
+    /// Base class for cards presenters.
+    /// </summary>
+    public abstract class CardPresenter
     {
+        ///Model instance
         protected CardFacade model;
 
         public CardPresenter()
@@ -14,23 +18,32 @@ namespace presenter
             model = new CardFacade();
         }
 
-        protected virtual void RefreshView()
-        {
-            ;
-        }
+        /// <summary>
+        /// Request for refresh view.
+        /// </summary>
+        protected abstract void RefreshView();
 
-        public void AddCard(string eng, string engDesc, string transcription, string rus, string rusDesc)
+        /// <summary>
+        /// Update or add (if it's not exist in list) new card.
+        /// </summary>
+        public void SaveCard(string eng, string engDesc, string transcription, string rus, string rusDesc)
         {
             model.AddCard(eng, engDesc, transcription, rus, rusDesc);
             RefreshView();
         }
 
+        /// <summary>
+        /// Remove card from list
+        /// </summary>
         public void RemoveCard(string eng, string engDesc, string transcription, string rus, string rusDesc)
         {
             model.RemoveCard(eng, engDesc, transcription, rus, rusDesc);
             RefreshView();
         }
 
+        /// <summary>
+        /// Remove all cards from list.
+        /// </summary>
         public void Clear()
         {
             model.Clear();

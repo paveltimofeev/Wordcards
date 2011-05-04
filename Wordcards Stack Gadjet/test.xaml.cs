@@ -25,7 +25,6 @@ namespace Wordcards_Stack_Gadjet
         CardStackPresenter presenter;
         Brush forwardColour;
         Brush backColour;
-        bool isEdit = false;
 
         #region Resize border
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -48,6 +47,8 @@ namespace Wordcards_Stack_Gadjet
         {
             InitializeComponent();
 
+            this.State = ViewState.DISPLAY;
+
             this.SourceInitialized += new EventHandler(Gadjet_SourceInitialized);
 
             forwardColour = rectangle2.Fill;
@@ -67,7 +68,7 @@ namespace Wordcards_Stack_Gadjet
             tbDescriprion.Text = EngDesc;
             lTracsription.Text = transcription;
 
-            if (!isEdit)
+            if (State == ViewState.EDIT)
             {
                 edit_Word.Text = Eng;
                 edit_Transcription.Text = transcription;
@@ -83,7 +84,7 @@ namespace Wordcards_Stack_Gadjet
             tbDescriprion.Text = RusDesc;
             lTracsription.Text = Eng;
 
-            if (!isEdit)
+            if (State == ViewState.EDIT)
             {
                 edit_RusWord.Text = Rus;
                 edit_RusDescriprion.Text = RusDesc;
@@ -99,6 +100,8 @@ namespace Wordcards_Stack_Gadjet
         {
             this.UpdateLayout();
         }
+
+        public ViewState State { get; set; }
 
         public string EditEng           { get { return edit_Word.Text; } }
         public string EditEngDesc       { get { return edit_Descriprion.Text; } }
@@ -139,19 +142,6 @@ namespace Wordcards_Stack_Gadjet
 
         #endregion
 
-        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ButtonState == MouseButtonState.Pressed)
-                this.DragMove();
-            else
-                presenter.Next();
-        }
-
-        private void Grid_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            presenter.Flip();
-        }
-
         private void Grid_MouseEnter(object sender, MouseEventArgs e)
         {
             gridToolbar.Opacity = 1;
@@ -162,17 +152,18 @@ namespace Wordcards_Stack_Gadjet
             gridToolbar.Opacity = 0;
         }
 
-        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void iClo_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.Close();
         }
 
         private void iNew_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            isEdit = true;
+            this.State = ViewState.NEW;
 
             this.ShowGrid(EditEngContent);
             gridStatusbar.Visibility = System.Windows.Visibility.Visible;
+            //presenter.ShowForwardSide();
 
             edit_Word.Text = "";
             edit_Transcription.Text = "";
@@ -184,7 +175,7 @@ namespace Wordcards_Stack_Gadjet
 
         private void iEdt_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            isEdit = true;
+            this.State = ViewState.EDIT;
             this.ShowGrid(EditEngContent);
             gridStatusbar.Visibility = System.Windows.Visibility.Visible;
 
@@ -213,7 +204,6 @@ namespace Wordcards_Stack_Gadjet
         private void iSave_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             presenter.Save();
-            isEdit = false;
             this.ShowGrid(CardContent);
 
             presenter.ShowForwardSide();
@@ -224,9 +214,24 @@ namespace Wordcards_Stack_Gadjet
             CardContent.Visibility = System.Windows.Visibility.Hidden;
             EditEngContent.Visibility = System.Windows.Visibility.Hidden;
             EditRusContent.Visibility = System.Windows.Visibility.Hidden;
-            gridStatusbar.Visibility = System.Windows.Visibility.Hidden;
 
             grid.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void gridToolbar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ButtonState == MouseButtonState.Pressed)
+                this.DragMove();
+        }
+
+        private void CardContent_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            presenter.Next();
+        }
+
+        private void CardContent_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            presenter.Flip();
         }
     }
 }

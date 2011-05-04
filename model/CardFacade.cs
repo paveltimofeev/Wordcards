@@ -10,7 +10,6 @@ namespace presenter
 {
     public class CardFacade
     {
-        Card random = null;
         public List<Card> Cards { get; private set; }
         Transformer trans = new Transformer("style_fb2.xslt");
 

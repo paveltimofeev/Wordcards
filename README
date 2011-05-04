@@ -1,0 +1,33 @@
+//[Русский текст см. ниже | Russian text see bellow]//
+
+----
+
+**Welcome to the WordCards wiki!**
+
+This project is implementation of cards method for learning foreign words. It's implemented as Vista style gadjet for OS Windows.
+
+In difference of paper version, this system allows you to consist your own set of cards and to link each card with concrete context (sentance). It helps to remember how to use word correctly. Every card has a rank that descrides how many mistakes you did (//cause of this low-ranked cards are well known and will be shown rarely//).
+Also, it has Play mode, in which window will be displayed on top in different timespan with different wordcard.
+
+You can share your set of wordcards with friends. Just export it to xml file. This also support export to fb2 (for read cards at bookreader) or HTML files.
+
+This solution uses MVP pattern and consist of several projects, including different realisations of view tier. Bellow you can see screenshot of WPF-based gadjet.
+
+{{http://public.bay.livefilestore.com/y1psV4-9JB9jFEnEZynExNIpNypLy9oWyLs5fBwe96oJKX-rmtiEZiqT8nwelrgI9MYsMQK-pmoWDiWTPGpufvF3g/LanguageWordCards-wiki1.jpg|Wordcards gadjet}}
+
+It can be runned at OS Microsoft Windows XP / Vista / Win7 with Microsoft .NET Framework 4.0.
+----
+**Добро пожаловать в WordCards wiki!**
+
+Реализация карточной методики изучения иностранных слов и выражений в виде удобного гаджета в стиле Vista. 
+
+В отличии от обычного набора бумажных карточек данная система позволяет пользователю формировать свой набор карточек и связывать каждую карточку с определённым контекстом (предложением) приводя пример правильного употребления слова и ускоряя процесс запоминания. По каждому слову ведётся рейтинг - если вы подсмотрели перевод слова то рейтинг увеличивается, следовательно наиболее простые и известные вам слова будет иметь низкий рейтинг (//и будут реже выводится на экран//). Также предусмотрен Play-режим в котором через разные промежутки времени окно гаджета со случайно выбранным словом показывается поверх всех окон, обращая на себя ваше внимание. 
+
+Наборами карточек можно обмениваться выгружая их в xml файлы, также доступен экспорт в FB2 (для чтения на электронных книгах) и HTML файлы.
+
+Это решение использует MVP-паттерн и состоит из нескольких проектов, включая разные реализации слоя View. Ниже вы можете увидеть скриншот гаджета.
+
+{{http://public.bay.livefilestore.com/y1psV4-9JB9jFEnEZynExNIpNypLy9oWyLs5fBwe96oJKX-rmtiEZiqT8nwelrgI9MYsMQK-pmoWDiWTPGpufvF3g/LanguageWordCards-wiki1.jpg|Wordcards gadjet}}
+
+Для использования программы необходимо ОС Microsoft Windows XP / Vista / Win7 и Microsoft .NET Framework 4.0.
+

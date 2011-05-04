@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 namespace Wordcards_Stack_Gadjet
 {
     /// <summary>
-    /// Логика взаимодействия для Gadjet.xaml
+    /// 
     /// </summary>
     public partial class Gadjet : Window, presenter.ICardStackView
     {
@@ -165,5 +165,22 @@ namespace Wordcards_Stack_Gadjet
         {
             presenter.RemoveCurentCard();
         }
+
+        #region ICardStackView Members
+
+
+        public ViewState State
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        #endregion
     }
 }

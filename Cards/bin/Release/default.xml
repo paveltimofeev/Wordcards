@@ -28,9 +28,11 @@
   </Card>
   <Card>
     <Eng>beyond</Eng>
+    <EngDesc>beyond the ocean</EngDesc>
     <Transcription>[bɪ'jɔnd]</Transcription>
     <Rus>далеко; 
 на расстоянии</Rus>
+    <RusDesc>по ту сторону океана</RusDesc>
     <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
@@ -59,17 +61,21 @@
   </Card>
   <Card>
     <Eng>commitment</Eng>
+    <EngDesc>family commitments</EngDesc>
     <Transcription>[kə'mɪtmənt]</Transcription>
     <Rus>обязательство</Rus>
+    <RusDesc>семейные обязанности</RusDesc>
     <WordType>6</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
-    <Eng>comparatively</Eng>
-    <Transcription>[kəm'pærətɪvlɪ]</Transcription>
-    <Rus>сравнительно; относительно</Rus>
-    <WordType>6</WordType>
-    <Rank>2</Rank>
+    <Eng>along with ...</Eng>
+    <EngDesc>Kettle delivered along with tea.</EngDesc>
+    <Transcription>[əˈlɔŋ]</Transcription>
+    <Rus>вместе с ...</Rus>
+    <RusDesc>Чайник был доставлен вместе с чаем.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>desirable</Eng>
@@ -129,11 +135,11 @@ to ensure that a device can run...</EngDesc>
   </Card>
   <Card>
     <Eng>evolve</Eng>
-    <EngDesc />
+    <EngDesc>The painter evolved his ideas about form and colour out of the work of an earlier artist.</EngDesc>
     <Transcription>[ɪ'vɔlv]</Transcription>
     <Rus>развивать
 раскручивать</Rus>
-    <RusDesc />
+    <RusDesc>Этот художник почерпнул свои идеи о форме и цвете из работ более старого мастера.</RusDesc>
     <WordType>1</WordType>
     <Rank>1</Rank>
   </Card>
@@ -149,13 +155,16 @@ to ensure that a device can run...</EngDesc>
   <Card>
     <Eng>handset</Eng>
     <EngDesc>mobile handsets</EngDesc>
+    <Transcription>['hæn(d)set] </Transcription>
     <Rus>телефонная трубка</Rus>
+    <RusDesc>мобильные телефонные трубки</RusDesc>
     <WordType>1</WordType>
     <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>hugely</Eng>
     <EngDesc>Google Maps for Mobile has been hugely popular</EngDesc>
+    <Transcription>['hju:ʤlɪ]</Transcription>
     <Rus>черезвычайно</Rus>
     <RusDesc>Карты Google Maps for Mobile стали черезвычайно популярны</RusDesc>
     <WordType>0</WordType>
@@ -174,14 +183,16 @@ to ensure that a device can run...</EngDesc>
     <Transcription>[ɪn'kɔ:pərɪt]</Transcription>
     <Rus>соединять</Rus>
     <WordType>2</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>intent</Eng>
     <EngDesc>intent to kill; intent to use in commerce</EngDesc>
+    <Transcription>[ɪn'tent]</Transcription>
     <Rus>намерение 
 = purpose</Rus>
-    <RusDesc />
+    <RusDesc>намерение убить
+намерение использовать в комерческих целях</RusDesc>
     <WordType>6</WordType>
     <Rank>1</Rank>
   </Card>
@@ -301,9 +312,9 @@ to ensure that a device can run...</EngDesc>
     <Rank>2</Rank>
   </Card>
   <Card>
-    <Eng>unless</Eng>
-    <EngDesc>Unless you’re a masochist, you'll probably want a IDE.</EngDesc>
-    <Transcription>[ən'les]</Transcription>
+    <Eng>to be allocated</Eng>
+    <EngDesc>We were allocated a room on the third floor.</EngDesc>
+    <Transcription>[ˈæləukeɪted]</Transcription>
     <Rus>если не</Rus>
     <RusDesc>Если вы не мазохист, вы скорей всего захотите использовать IDE.</RusDesc>
     <WordType>0</WordType>
@@ -332,5 +343,212 @@ to ensure that a device can run...</EngDesc>
     <Rus>широко распространённый</Rus>
     <WordType>3</WordType>
     <Rank>2</Rank>
+  </Card>
+  <Card>
+    <Eng>roughly</Eng>
+    <EngDesc>Activity it is roughly equivalent to a Form</EngDesc>
+    <Transcription>['rʌflɪ]</Transcription>
+    <Rus>грубо 
+резко</Rus>
+    <RusDesc>Activity это грубо говоря эквивалент Form</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>skeleton</Eng>
+    <EngDesc>The following snippet shows the skeleton code for an Activity-based class.</EngDesc>
+    <Transcription>['skelɪtn]</Transcription>
+    <Rus>костяк
+основа</Rus>
+    <RusDesc>Следующий сниппет показывает основу кода для Activity-based класса.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>to extend</Eng>
+    <EngDesc>We extended the fence to the edge of our property.</EngDesc>
+    <Transcription>[ɪks'tend]</Transcription>
+    <Rus>расширять</Rus>
+    <RusDesc>Мы продолжили (расширили) ограду до конца нашего участка.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>similar</Eng>
+    <EngDesc>similar to controls</EngDesc>
+    <Transcription>['sɪmɪlə]</Transcription>
+    <Rus>подобный
+похожий</Rus>
+    <RusDesc>подобный контролам (подобный элементам управления)</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>lay out</Eng>
+    <EngDesc>The goods for sale were laid out attractively.</EngDesc>
+    <Transcription>[leɪ] [aut]</Transcription>
+    <Rus>выкладывать, выставлять</Rus>
+    <RusDesc>Товары на продажу были выставлены так, что привлекали внимание.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>to inflate</Eng>
+    <EngDesc>...by inflating a layout resource...</EngDesc>
+    <Transcription>[ɪn'fleɪt]</Transcription>
+    <Rus>надувать
+увеличиваться в размерах</Rus>
+    <RusDesc>... посредством увеличения размера ресурсов разметки...</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>through</Eng>
+    <EngDesc>The River Thames flows through London.</EngDesc>
+    <Transcription>[θru:]</Transcription>
+    <Rus>через
+сквозь</Rus>
+    <RusDesc>Темза протекает через Лондон.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>define</Eng>
+    <EngDesc>UI layout defined in the main.xml file</EngDesc>
+    <Transcription>[dɪ'faɪn]</Transcription>
+    <Rus>определять </Rus>
+    <RusDesc>Разметка пользовательского интерфейса задаётся в файле main.xml.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>preferred way</Eng>
+    <EngDesc>...it is the preferred way of implementing your user interfaces...</EngDesc>
+    <Transcription>[prɪ'fə:d] [weɪ]</Transcription>
+    <Rus>предпочтительный способ</Rus>
+    <RusDesc>...это предпочтительный способ реализации вашего пользовательского интерфейса...</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>neatly</Eng>
+    <EngDesc>it neatly decouples your application logic</EngDesc>
+    <Transcription>['ni:tlɪ]</Transcription>
+    <Rus>аккуратно
+ясно, чётко</Rus>
+    <RusDesc>...он чётко разъединяет логику вашего приложения.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>decouples</Eng>
+    <EngDesc>it neatly decouples your application logic.
+=separate</EngDesc>
+    <Transcription>[,di:'kʌpl]</Transcription>
+    <Rus>расцеплять
+разъединять</Rus>
+    <RusDesc>...он чётко разъединяет логику вашего приложения.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>snippet</Eng>
+    <EngDesc>code snippet</EngDesc>
+    <Transcription>['snɪpɪt]</Transcription>
+    <Rus>отрезок
+кусок</Rus>
+    <RusDesc>кусок кода</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>substitution</Eng>
+    <EngDesc>substitution of layout designs and individual UI elements...</EngDesc>
+    <Transcription>[,sʌbstɪ'tju:ʃ(ə)n]</Transcription>
+    <Rus>замена 
+замещение</Rus>
+    <RusDesc>замена дизайна разметки и индивидуальных элементов UI</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>keeping</Eng>
+    <EngDesc>...keeping the visual design decoupled
+from the application code helps keep the code more concise.</EngDesc>
+    <Transcription>['ki:pɪŋ]</Transcription>
+    <Rus>владение
+хранение</Rus>
+    <RusDesc>хранение визуального проектирования отдельно от кода приложения помогает поддерживать (писать) код более кратким.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>concise</Eng>
+    <EngDesc>...keeping the visual design decoupled
+from the application code helps keep the code more concise.</EngDesc>
+    <Transcription>[kən'saɪs]</Transcription>
+    <Rus>краткий</Rus>
+    <RusDesc>... помогает поддерживать (писать) код более кратким.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>concisely</Eng>
+    <EngDesc>=shortly 
+=briefly</EngDesc>
+    <Transcription>[kən'saɪsli]</Transcription>
+    <Rus>кратко</Rus>
+    <RusDesc>кратко, сжато, лаконично; выразительно</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>fit together</Eng>
+    <EngDesc>They’re easy to follow and give a good idea of how Android applications
+fit together.</EngDesc>
+    <Transcription>[fɪt] [tə'ɡeðə]</Transcription>
+    <Rus>text</Rus>
+    <RusDesc>text</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>aim to</Eng>
+    <EngDesc>This toolkit aims to make creating interactive menu systems</EngDesc>
+    <Transcription>[eɪm]</Transcription>
+    <Rus>цель</Rus>
+    <RusDesc>Цели этого набора инструментов - создание интерактивыных систем меню.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>smooth</Eng>
+    <EngDesc>Check in was smooth.</EngDesc>
+    <Transcription>[smu:ð]</Transcription>
+    <Rus> гладкий спокойный</Rus>
+    <RusDesc>Регистрация прошла гладко (спокойно).</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>to be allocated</Eng>
+    <EngDesc>We were allocated a room on the third floor.</EngDesc>
+    <Transcription>[ˈæləukeɪted]</Transcription>
+    <Rus>быть размещённым</Rus>
+    <RusDesc>Нас разместили в номере на третьем этаже.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>impressed</Eng>
+    <EngDesc>We were particularly impressed that our room was cleaned every day and towels and bedding changed daily too!</EngDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>along with</Eng>
+    <EngDesc>Kettle was delivered along with tea.</EngDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
   </Card>
 </ArrayOfCard>

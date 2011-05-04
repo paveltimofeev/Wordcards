@@ -7,7 +7,7 @@
     <Rus>объяснять</Rus>
     <RusDesc>В этой главе объяснялось что ...</RusDesc>
     <WordType>6</WordType>
-    <Rank>5</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>explain1</Eng>
@@ -16,14 +16,23 @@
     <Rus>text</Rus>
     <RusDesc>text</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>0</Rank>
   </Card>
   <Card>
-    <Eng>explain1</Eng>
-    <EngDesc>This chapter explained that...</EngDesc>
-    <Transcription>[ɪks'pleɪn]</Transcription>
+    <Eng>explain-2</Eng>
+    <EngDesc>explain too</EngDesc>
+    <Transcription>[iksplain] [tu:]</Transcription>
     <Rus>Объяснять</Rus>
-    <RusDesc />
+    <RusDesc>объяснять 2</RusDesc>
+    <WordType>0</WordType>
+    <Rank>4</Rank>
+  </Card>
+  <Card>
+    <Eng>explain-2</Eng>
+    <EngDesc>explain too</EngDesc>
+    <Transcription>[iksplain] [tu:]</Transcription>
+    <Rus>Объяснять-2</Rus>
+    <RusDesc>объяснять 2</RusDesc>
     <WordType>0</WordType>
     <Rank>2</Rank>
   </Card>

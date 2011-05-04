@@ -38,3 +38,5 @@ d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadj
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.dll
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\presenter.pdb
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\style_html.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\style_fb2.xslt

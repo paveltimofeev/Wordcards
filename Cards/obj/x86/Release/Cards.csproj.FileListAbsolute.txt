@@ -37,3 +37,5 @@ C:\Users\Pavel\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\Cards.MainForm.res
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\Cards.Properties.Resources.resources
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\GenerateResource.read.1.tlog
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\GenerateResource.write.1.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\style_html.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\style_fb2.xslt
