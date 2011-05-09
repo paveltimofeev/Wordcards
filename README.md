@@ -10,7 +10,7 @@ You can share your set of wordcards with friends. Just export it to xml file. Th
 
 This solution uses MVP pattern and consist of several projects, including different realisations of view tier. Bellow you can see screenshot of WPF-based gadjet.
 
-(http://public.bay.livefilestore.com/y1psV4-9JB9jFEnEZynExNIpNypLy9oWyLs5fBwe96oJKX-rmtiEZiqT8nwelrgI9MYsMQK-pmoWDiWTPGpufvF3g/LanguageWordCards-wiki1.jpg)[Wordcards gadjet]
+[Wordcards gadjet](http://public.bay.livefilestore.com/y1psV4-9JB9jFEnEZynExNIpNypLy9oWyLs5fBwe96oJKX-rmtiEZiqT8nwelrgI9MYsMQK-pmoWDiWTPGpufvF3g/LanguageWordCards-wiki1.jpg)
 
 It can be runned at OS Microsoft Windows XP / Vista / Win7 with Microsoft .NET Framework 4.0.
 
