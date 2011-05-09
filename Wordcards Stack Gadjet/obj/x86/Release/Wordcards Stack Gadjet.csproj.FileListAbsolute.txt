@@ -22,10 +22,6 @@ d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadj
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet.exe
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet.pdb
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\ResolveAssemblyReference.cache
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gadjet.baml
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\test.baml
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gadjet.g.cs
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\test.g.cs
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\App.g.cs
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet_MarkupCompile.cache
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet.g.resources
@@ -38,5 +34,5 @@ d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadj
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.dll
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\presenter.pdb
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.pdb
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\style_html.xslt
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\style_fb2.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gatget.baml
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gatget.g.cs

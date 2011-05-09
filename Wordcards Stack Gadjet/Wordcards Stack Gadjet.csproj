@@ -55,21 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="test.xaml.cs">
-      <DependentUpon>test.xaml</DependentUpon>
+    <Compile Include="Gatget.xaml.cs">
+      <DependentUpon>Gatget.xaml</DependentUpon>
     </Compile>
-    <Page Include="Gadjet.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Gadjet.xaml.cs">
-      <DependentUpon>Gadjet.xaml</DependentUpon>
-    </Compile>
-    <Page Include="test.xaml">
+    <Page Include="Gatget.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

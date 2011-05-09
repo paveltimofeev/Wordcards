@@ -30,10 +30,6 @@ d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadj
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Debug\presenter.pdb
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Debug\model.pdb
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\ResolveAssemblyReference.cache
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gadjet.baml
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\test.baml
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gadjet.g.cs
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\test.g.cs
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\App.g.cs
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Wordcards Stack Gadjet_MarkupCompile.cache
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Wordcards Stack Gadjet.g.resources
@@ -42,3 +38,5 @@ d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadj
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\ResGen.read.1.tlog
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\GenerateResource.write.1.tlog
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\ResGen.write.1.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gatget.baml
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gatget.g.cs

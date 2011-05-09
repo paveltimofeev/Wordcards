@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using model;
-
+using System.Threading;
+using System.Diagnostics;
+using System.Timers;
 namespace presenter
 {
     /// <summary>
@@ -12,7 +14,7 @@ namespace presenter
     public class CardStackPresenter : CardPresenter
     {
         ///View instance
-        ICardStackView view;
+        ICardInvokeableStackView view;
         ///previouse card instance
         Card previouse = null;
         ///current card instance
@@ -22,10 +24,17 @@ namespace presenter
         ///Flag describes that rank of card was increased
         bool wasRankIncreased = false;
 
-        public CardStackPresenter(ICardStackView view)
+        System.Timers.Timer playTimer = new System.Timers.Timer();
+        delegate void BringOnTopHandler();
+
+        public CardStackPresenter(ICardInvokeableStackView view)
         {
             this.view = view;
             model.LoadXML("default.xml");
+
+            playTimer.Interval = GetRandomPlayTimerDelay(1, 10);
+            playTimer.Stop();
+            playTimer.Elapsed += new ElapsedEventHandler(_playTimerElapsed);
         }
 
         /// <summary>
@@ -45,6 +54,8 @@ namespace presenter
         public void RemoveCurentCard()
         {
             base.RemoveCard(current.Eng, current.EngDesc, current.Transcription, current.Rus, current.RusDesc);
+            this.model.SaveDatabase();
+            this.Next();
         }
 
         /// <summary>
@@ -119,6 +130,28 @@ namespace presenter
                 ShowForwardSide();
 
             isFlipped = !isFlipped;
+        }
+
+        /// <summary>
+        /// Start play mode.
+        /// </summary>
+        public void PlayMode()
+        {
+            if (!playTimer.Enabled)
+                playTimer.Start();
+            else
+                playTimer.Stop();
+        }
+
+        private void _playTimerElapsed(object sender, ElapsedEventArgs e)
+        {
+            playTimer.Interval = GetRandomPlayTimerDelay(1, 10);
+            view.Dispatcher.Invoke(new BringOnTopHandler(view.BringOnTop));
+        }
+
+        protected int GetRandomPlayTimerDelay(int min, int max)
+        {
+            return 1000 * 60 * new Random().Next(min, max);
         }
 
         protected override void RefreshView()

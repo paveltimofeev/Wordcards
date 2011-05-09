@@ -16,7 +16,7 @@
     <Rus>прогресс, успех</Rus>
     <RusDesc>Значительные успехи</RusDesc>
     <WordType>1</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>be attracted</Eng>
@@ -50,7 +50,7 @@
     <Transcription>[klenz]</Transcription>
     <Rus>чистить</Rus>
     <WordType>2</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>commit</Eng>
@@ -59,7 +59,7 @@
 
 принять решение</Rus>
     <WordType>6</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>commitment</Eng>
@@ -124,7 +124,7 @@ Desirable son.</EngDesc>
     <Rus>обстоятельство</Rus>
     <RusDesc>Вы можете обнаружить что в некоторых обстоятельствах лучше...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>ensure</Eng>
@@ -223,7 +223,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>тем временем, между тем, в это время</Rus>
     <RusDesc>Разработчики, тем временем, имеют возможность ...</RusDesc>
     <WordType>6</WordType>
-    <Rank>1</Rank>
+    <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>novice</Eng>
@@ -249,7 +249,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>предлагать</Rus>
     <RusDesc>Андроид предлагает разработчикам возможность создавать инновационные програмные продукты.</RusDesc>
     <WordType>6</WordType>
-    <Rank>4</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>quest</Eng>
@@ -403,7 +403,7 @@ to ensure that a device can run...</EngDesc>
 увеличиваться в размерах</Rus>
     <RusDesc>... посредством увеличения размера ресурсов разметки...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>through</Eng>

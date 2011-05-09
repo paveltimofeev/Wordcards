@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.ComponentModel;
 
 namespace presenter
 {
@@ -38,6 +39,8 @@ namespace presenter
         /// </summary>
         void Refresh();
 
+        void BringOnTop();
+
         /// <summary>
         /// Current state (for ex.: edit, new, or dystplay).
         /// </summary>
@@ -69,5 +72,8 @@ namespace presenter
         string EditRusDesc { get; }
     }
 
+    /// <summary>
+    /// State of the edit
+    /// </summary>
     public enum ViewState { NEW, EDIT, DISPLAY }
 }

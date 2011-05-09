@@ -38,11 +38,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CardListPresenter.cs" />
     <Compile Include="CardPresenter.cs" />
     <Compile Include="CardStackPresenter.cs" />
+    <Compile Include="ICardInvokeableStackView.cs" />
     <Compile Include="ICardListView.cs" />
     <Compile Include="ICardStackView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
