@@ -1,4 +1,4 @@
-﻿<Window x:Class="Wordcards_Stack_Gadjet.test" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Wordcards Stack Gadjet" BorderThickness="0" ShowInTaskbar="False" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  AllowsTransparency="true" Background="Transparent" WindowStyle="None" Height="274" Width="251" MinWidth="200" MinHeight="200" PreviewMouseMove="Window_PreviewMouseMove" Icon="/Wordcards%20Stack%20Gadjet;component/Writing%20App.ico">
+﻿<Window x:Class="Wordcards_Stack_Gadjet.Gadget" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Wordcards Stack Gadjet" BorderThickness="0" ShowInTaskbar="False" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  AllowsTransparency="true" Background="Transparent" WindowStyle="None" Height="274" Width="251" MinWidth="200" MinHeight="200" PreviewMouseMove="Window_PreviewMouseMove" Icon="/Wordcards%20Stack%20Gadjet;component/Writing%20App.ico">
     
     <Grid ShowGridLines="False" Background="Transparent">
         <Rectangle Fill="#FFEAEAB7" Name="rectangle1" Stroke="#FF878787" Margin="5,5,5,13">
@@ -7,9 +7,7 @@
         <Rectangle Fill="#FFFFC4" Name="rectangle2" Stroke="#FFBEBEBB" Margin="14,14,14,22"><Rectangle.BitmapEffect><DropShadowBitmapEffect Opacity="0.5" /></Rectangle.BitmapEffect></Rectangle>
 
         <Grid Name="rectangleGrid" Margin="15,15,15,23" Background="Transparent">
-            <Grid.LayoutTransform>
-                <TranslateTransform X="0" Y="0"/>
-            </Grid.LayoutTransform>
+
             
             <Grid Name="gridToolbar" Opacity="0.0" Margin="0,0,0,0" Height="24" VerticalAlignment="Top" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave" MouseLeftButtonDown="gridToolbar_MouseLeftButtonDown"  Background="#FFFFE7AC" Cursor="Hand">
                 <Grid.ContextMenu>
@@ -71,7 +69,7 @@
             </Grid>
 
             <Image Name="rResizePoint"  Height="26" Width="26" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,0" Opacity="1" MouseMove="rResizePoint_MouseMove" PreviewMouseLeftButtonDown="rResizePoint_PreviewMouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/resize_corner_96dpi.png" Stretch="None" />
-            <Label Name="lRank" Height="23" Width="84" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,-22" Content="Rank: 0" Foreground="#82000000" FlowDirection="RightToLeft" />
+            <Label Name="lRank" Height="23" Width="200" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,-22" Content="Rank: 0" Foreground="#82000000" FlowDirection="RightToLeft" />
 
         </Grid>
     </Grid>

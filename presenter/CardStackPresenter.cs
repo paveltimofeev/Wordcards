@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using model;
-using System.Threading;
 using System.Diagnostics;
 using System.Timers;
+using System.Windows.Media;
 namespace presenter
 {
     /// <summary>
@@ -16,15 +16,17 @@ namespace presenter
         ///View instance
         ICardInvokeableStackView view;
         ///previouse card instance
-        Card previouse = null;
+        int previouse = -1;
         ///current card instance
-        Card current = null;
+        int current = -1;
         ///Flag discribes state of the card (flipped or not)
         bool isFlipped = false;
         ///Flag describes that rank of card was increased
         bool wasRankIncreased = false;
 
-        System.Timers.Timer playTimer = new System.Timers.Timer();
+        ViewState state;
+
+        Timer playTimer = new Timer();
         delegate void BringOnTopHandler();
 
         public CardStackPresenter(ICardInvokeableStackView view)
@@ -35,6 +37,8 @@ namespace presenter
             playTimer.Interval = GetRandomPlayTimerDelay(1, 10);
             playTimer.Stop();
             playTimer.Elapsed += new ElapsedEventHandler(_playTimerElapsed);
+
+            state = ViewState.DISPLAY;
         }
 
         /// <summary>
@@ -42,10 +46,17 @@ namespace presenter
         /// </summary>
         public void Save()
         {
-            model.AddCard(view.EditEng, view.EditEngDesc, view.EditTranscription, view.EditRus, view.EditRusDesc);
-            model.SaveDatabase();
+            if (state == ViewState.EDIT)
+            {
+                model.UpdateCard(current, view.EditEng, view.EditEngDesc, view.EditTranscription, view.EditRus, view.EditRusDesc);
+            }
+            else if (state == ViewState.NEW)
+            {
+                model.AddCard(view.EditEng, view.EditEngDesc, view.EditTranscription, view.EditRus, view.EditRusDesc);
+            }
 
-            view.State = ViewState.DISPLAY;
+            model.SaveDatabase();
+            state = ViewState.DISPLAY;
         }
 
         /// <summary>
@@ -53,8 +64,12 @@ namespace presenter
         /// </summary>
         public void RemoveCurentCard()
         {
-            base.RemoveCard(current.Eng, current.EngDesc, current.Transcription, current.Rus, current.RusDesc);
-            this.model.SaveDatabase();
+            if (current >= 0)
+            {
+                Card temp = model.Cards[current];
+                base.RemoveCard(temp.Eng, temp.EngDesc, temp.Transcription, temp.Rus, temp.RusDesc);
+                this.model.SaveDatabase();
+            }
             this.Next();
         }
 
@@ -64,10 +79,16 @@ namespace presenter
         public void Next()
         {
             previouse = current;
-            current = model.GetRandom();
-            isFlipped = false;
-            wasRankIncreased = false;
-            ShowForwardSide();
+
+            Card temp = model.GetRandom();
+
+            if (temp != null)
+            {
+                current = model.Cards.IndexOf(temp);
+                isFlipped = false;
+                wasRankIncreased = false;
+                ShowForwardSide();
+            }
         }
 
         /// <summary>
@@ -84,15 +105,22 @@ namespace presenter
         /// </summary>
         public void ShowForwardSide()
         {
-            ///save other side data if current state is edit or new.
-            if (view.State == ViewState.EDIT | view.State == ViewState.NEW)
+            if (current >= 0)
             {
-                current.Rus = view.EditRus;
-                current.RusDesc = view.EditRusDesc;
-            }
+                Card temp = model.Cards[current];
 
-            view.ShowEngSide(current.Eng, current.EngDesc, current.Transcription);
-            view.ShowAdditionalInfo(current.WordType, current.Rank);
+                ///save other side data if current state is edit or new.
+                if (state == ViewState.EDIT | state == ViewState.NEW)
+                {
+                    temp.Rus = view.EditRus;
+                    temp.RusDesc = view.EditRusDesc;
+                }
+
+                view.SetBgColor(255, 255, 196);
+                //view.SetBgColor(252, 180, 16);
+                view.ShowEngSide(temp.Eng, temp.EngDesc, temp.Transcription);
+                view.ShowAdditionalInfo(model.Cards.Count, temp.Rank);
+            }
         }
 
         /// <summary>
@@ -100,23 +128,29 @@ namespace presenter
         /// </summary>
         public void ShowBackSide()
         {
-            if (view.State == ViewState.DISPLAY && !wasRankIncreased)
+            if (current >= 0)
             {
-                current.Rank++;
-                wasRankIncreased = true;
-                model.SaveDatabase();
-            }
+                Card temp = model.Cards[current];
 
-            ///save other side data if current state is edit or new.
-            if (view.State == ViewState.EDIT | view.State == ViewState.NEW)
-            {
-                current.Eng = view.EditEng;
-                current.EngDesc = view.EditEngDesc;
-                current.Transcription = view.EditTranscription;
-            }
+                if (state == ViewState.DISPLAY && !wasRankIncreased)
+                {
+                    temp.Rank++;
+                    wasRankIncreased = true;
+                    model.SaveDatabase();
+                }
 
-            view.ShowRusSide(current.Rus, current.Eng, current.RusDesc);
-            view.ShowAdditionalInfo(current.WordType, current.Rank);
+                ///save other side data if current state is edit or new.
+                if (state == ViewState.EDIT | state == ViewState.NEW)
+                {
+                    temp.Eng = view.EditEng;
+                    temp.EngDesc = view.EditEngDesc;
+                    temp.Transcription = view.EditTranscription;
+                }
+
+                view.SetBgColor(190, 245, 116);
+                view.ShowRusSide(temp.Rus, temp.Eng, temp.RusDesc);
+                view.ShowAdditionalInfo(model.Cards.Count, temp.Rank);
+            }
         }
 
         /// <summary>
@@ -157,6 +191,30 @@ namespace presenter
         protected override void RefreshView()
         {
             view.Refresh();
+        }
+
+        public void SwitchNew()
+        {
+            state = ViewState.NEW;
+            view.SetBgColor(252, 180, 16);
+            current = -1;
+            view.ShowEngSide("", "", "");
+        }
+
+        public void SwitchEdit()
+        {
+            state = ViewState.EDIT;
+            if (current >= 0)
+            {
+                Card temp = model.Cards[current];
+                view.ShowEngSide(temp.Eng, temp.EngDesc, temp.Transcription);
+            }
+        }
+
+        public void SwitchDisplay()
+        {
+            state = ViewState.DISPLAY;
+            Next();
         }
     }
 }

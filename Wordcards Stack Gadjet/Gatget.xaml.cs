@@ -21,11 +21,9 @@ namespace Wordcards_Stack_Gadjet
     /// <summary>
     /// Логика взаимодействия для test.xaml
     /// </summary>
-    public partial class test : Window, presenter.ICardInvokeableStackView
+    public partial class Gadget : Window, presenter.ICardInvokeableStackView
     {
         CardStackPresenter presenter;
-        Brush forwardColour;
-        Brush backColour = null;
 
         #region Resize border
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -44,17 +42,11 @@ namespace Wordcards_Stack_Gadjet
         }
         #endregion
 
-        public test()
+        public Gadget()
         {
             InitializeComponent();
 
-            this.State = ViewState.DISPLAY;
-
             this.SourceInitialized += new EventHandler(Gadjet_SourceInitialized);
-
-            forwardColour = rectangle2.Fill;
-            //backColour = new SolidColorBrush(Color.FromRgb(255, 219, 196));
-            backColour = new SolidColorBrush(Color.FromRgb(190, 245, 116));
 
             presenter = new CardStackPresenter(this);
             presenter.Next();
@@ -64,36 +56,33 @@ namespace Wordcards_Stack_Gadjet
 
         public void ShowEngSide(string Eng, string EngDesc, string transcription)
         {
-            rectangle2.Fill = forwardColour;
-
             tbWord.Text = Eng;
             tbDescriprion.Text = EngDesc;
             lTracsription.Text = transcription;
 
-            
-                edit_Word.Text = Eng;
-                edit_Transcription.Text = transcription;
-                edit_Descriprion.Text = EngDesc;
-            
+            edit_Word.Text = Eng;
+            edit_Transcription.Text = transcription;
+            edit_Descriprion.Text = EngDesc;
         }
 
         public void ShowRusSide(string Rus, string Eng, string RusDesc)
         {
-            rectangle2.Fill = backColour;
-
             tbWord.Text = Rus;
             tbDescriprion.Text = RusDesc;
             lTracsription.Text = Eng;
 
-            
-                edit_RusWord.Text = Rus;
-                edit_RusDescriprion.Text = RusDesc;
-            
+            edit_RusWord.Text = Rus;
+            edit_RusDescriprion.Text = RusDesc;
         }
 
-        public void ShowAdditionalInfo(int wordType, int Rank)
+        public void SetBgColor(byte r, byte g, byte b)
         {
-            lRank.Content = string.Format("Rank: {0}", Rank);
+            rectangle2.Fill = new SolidColorBrush(Color.FromRgb(r, g, b));
+        }
+
+        public void ShowAdditionalInfo(int totalWords, int Rank)
+        {
+            lRank.Content = string.Format("Words: {0} | Rank: {1}", totalWords, Rank);
         }
 
         public void Refresh()
@@ -107,8 +96,6 @@ namespace Wordcards_Stack_Gadjet
             this.Topmost = true;
             this.Topmost = false;
         }
-
-        public ViewState State { get; set; }
 
         public string EditEng           { get { return edit_Word.Text; } }
         public string EditEngDesc       { get { return edit_Descriprion.Text; } }
@@ -158,10 +145,10 @@ namespace Wordcards_Stack_Gadjet
 
         private void iNew_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            this.State = ViewState.NEW;
-
             this.ShowGrid(EditEngContent);
             gridStatusbar.Visibility = Visibility.Visible;
+
+            presenter.SwitchNew();
 
             edit_Word.Text = "";
             edit_Transcription.Text = "";
@@ -173,11 +160,11 @@ namespace Wordcards_Stack_Gadjet
 
         private void iEdt_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            this.State = ViewState.EDIT;
             this.ShowGrid(EditEngContent);
             gridStatusbar.Visibility = System.Windows.Visibility.Visible;
 
-            presenter.ShowForwardSide();
+            presenter.SwitchEdit();
+
             edit_Word.Focus();
         }
 
@@ -211,7 +198,7 @@ namespace Wordcards_Stack_Gadjet
             this.ShowGrid(CardContent);
             gridStatusbar.Visibility = System.Windows.Visibility.Hidden;
 
-            presenter.ShowForwardSide();
+            presenter.SwitchDisplay();
         }
 
         #endregion
@@ -235,13 +222,6 @@ namespace Wordcards_Stack_Gadjet
         private void CardContent_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             presenter.Next();
-
-            DoubleAnimation anim = new DoubleAnimation();
-            anim.From = 0;
-            anim.To= 100;
-            anim.Duration = TimeSpan.FromSeconds(3);
-
-            rectangleGrid.BeginAnimation(LayoutTransformProperty, anim);
         }
 
         private void CardContent_MouseRightButtonDown(object sender, MouseButtonEventArgs e)

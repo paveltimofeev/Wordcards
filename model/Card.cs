@@ -24,7 +24,12 @@ namespace model
             Card temp = obj as Card;
             if (temp != null)
             {
-                return this.Eng == temp.Eng & this.Rus == temp.Rus;
+                return 
+                    this.Eng == temp.Eng & 
+                    this.Rus == temp.Rus &
+                    this.EngDesc == temp.EngDesc &
+                    this.RusDesc == temp.RusDesc &
+                    this.Transcription == temp.Transcription;
             }
             else
             {

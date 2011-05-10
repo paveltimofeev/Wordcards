@@ -19,15 +19,34 @@ namespace presenter
         }
 
         /// <summary>
-        /// Save or update card item.
+        /// Add card item.
         /// </summary>
         public void AddCard(string eng, string engDesc, string transcription, string rus, string rusDesc)
         {
             Card card = new Card() { Eng = eng, EngDesc = engDesc, Transcription = transcription, Rus = rus, RusDesc = rusDesc };
-            if (Cards.Contains(card))
-                Cards[Cards.IndexOf(card)] = card;
-            else
+            if (!Cards.Contains(card))
+            {
                 Cards.Add(card);
+            }
+            else
+            {
+                throw new Exception(string.Format("That card already exists. {0}", card)); 
+            }
+        }
+
+        /// <summary>
+        /// Update card item.
+        /// </summary>
+        public void UpdateCard(int cardId, string eng, string engDesc, string transcription, string rus, string rusDesc)
+        {
+            if (Cards.Count > cardId)
+            {
+                Cards[cardId] = new Card() { Eng = eng, EngDesc = engDesc, Transcription = transcription, Rus = rus, RusDesc = rusDesc };
+            }
+            else
+            {
+                throw new Exception(string.Format("Card was not found. {0}-{1}", eng, rus));
+            }
         }
 
         public void RemoveCard(string eng, string engDesc, string transcription, string rus, string rusDesc)
@@ -118,8 +137,15 @@ namespace presenter
 
         public Card GetRandom()
         {
-            int i = new Random().Next(0, Cards.Count);
-            return Cards[i];
+            if (Cards != null && Cards.Count > 0)
+            {
+                int i = new Random().Next(0, Cards.Count);
+                return Cards[i];
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public void SortRank()

@@ -30,9 +30,9 @@ namespace presenter
         /// <summary>
         /// Display additional information
         /// </summary>
-        /// <param name="wordType">Type of word</param>
+        /// <param name="wordType">Total words in collection</param>
         /// <param name="Rank">Rank of word</param>
-        void ShowAdditionalInfo(int wordType, int Rank);
+        void ShowAdditionalInfo(int totalWords, int Rank);
 
         /// <summary>
         /// Redraw, refresh or update view
@@ -44,7 +44,7 @@ namespace presenter
         /// <summary>
         /// Current state (for ex.: edit, new, or dystplay).
         /// </summary>
-        ViewState State { get; set; }
+        //ViewState State { get; set; }
 
         /// <summary>
         /// Value of editing field Eng
@@ -70,6 +70,11 @@ namespace presenter
         /// Value of editing field RusDesc
         /// </summary>
         string EditRusDesc { get; }
+
+        /// <summary>
+        /// Change BG color
+        /// </summary>
+        void SetBgColor(byte r, byte g, byte b);
     }
 
     /// <summary>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <ArrayOfCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Card>
-    <Eng>explain</Eng>
+    <Eng>explains</Eng>
     <EngDesc>This chapter explained that...</EngDesc>
     <Transcription>[ɪks'pleɪn]</Transcription>
-    <Rus>объяснять</Rus>
-    <RusDesc>В этой главе объяснялось что ...</RusDesc>
-    <WordType>6</WordType>
-    <Rank>13</Rank>
+    <Rus>объясняет</Rus>
+    <RusDesc>text</RusDesc>
+    <WordType>0</WordType>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>to explain</Eng>
@@ -16,6 +16,24 @@
     <Rus>объяснять (гл.)</Rus>
     <RusDesc>Эта глава объясняет что...</RusDesc>
     <WordType>0</WordType>
-    <Rank>6</Rank>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>Test</Eng>
+    <EngDesc>Test is test.</EngDesc>
+    <Transcription>[test]</Transcription>
+    <Rus>Тест</Rus>
+    <RusDesc>Тест это тест.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>The test</Eng>
+    <EngDesc>TheTest</EngDesc>
+    <Transcription>ze test</Transcription>
+    <Rus>Тест</Rus>
+    <RusDesc>тест</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
   </Card>
 </ArrayOfCard>

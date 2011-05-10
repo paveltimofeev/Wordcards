@@ -16,7 +16,7 @@
     <Rus>прогресс, успех</Rus>
     <RusDesc>Значительные успехи</RusDesc>
     <WordType>1</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>be attracted</Eng>
@@ -355,7 +355,7 @@ to ensure that a device can run...</EngDesc>
 резко</Rus>
     <RusDesc>Activity это грубо говоря эквивалент Form</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>skeleton</Eng>
@@ -452,7 +452,7 @@ to ensure that a device can run...</EngDesc>
 разъединять</Rus>
     <RusDesc>...он чётко разъединяет логику вашего приложения.</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>snippet</Eng>
