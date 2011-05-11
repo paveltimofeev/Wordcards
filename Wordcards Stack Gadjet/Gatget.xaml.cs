@@ -237,5 +237,61 @@ namespace Wordcards_Stack_Gadjet
 
             grid.Visibility = Visibility.Visible;
         }
+
+        private void iCancel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            presenter.SwitchDisplay();
+        }
+
+        private void iPrevCard_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            presenter.PreviouseCard();
+        }
+
+        private void iNextCard_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            presenter.NextCard();
+        }
+
+        private void rectangleGrid_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (Mouse.GetPosition(this).X > this.Width / 2)
+            {
+                iNextCard.Opacity = 1;
+                iPrevCard.Opacity = 0;
+            }
+            else
+            {
+                iPrevCard.Opacity = 1;
+                iNextCard.Opacity = 0;
+            }
+        }
+
+        private void rectangleGrid_MouseLeave(object sender, MouseEventArgs e)
+        {
+            iNextCard.Opacity = 0;
+            iPrevCard.Opacity = 0;
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.Key)
+            {
+                case Key.Left:
+                    presenter.PreviouseCard();
+                    break;
+                case Key.Right:
+                    presenter.NextCard();
+                    break;
+                case Key.Down:
+                    presenter.ShowBackSide();
+                    break;
+                case Key.Up:
+                    presenter.ShowForwardSide();
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }

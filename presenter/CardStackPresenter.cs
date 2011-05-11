@@ -16,13 +16,15 @@ namespace presenter
         ///View instance
         ICardInvokeableStackView view;
         ///previouse card instance
-        int previouse = -1;
+        int historyPosition = -1;
         ///current card instance
         int current = -1;
         ///Flag discribes state of the card (flipped or not)
         bool isFlipped = false;
         ///Flag describes that rank of card was increased
         bool wasRankIncreased = false;
+
+        List<int> history = new List<int>();
 
         ViewState state;
 
@@ -78,13 +80,15 @@ namespace presenter
         /// </summary>
         public void Next()
         {
-            previouse = current;
-
             Card temp = model.GetRandom();
 
             if (temp != null)
             {
                 current = model.Cards.IndexOf(temp);
+
+                history.Add(current);
+                historyPosition = history.Count - 1;
+
                 isFlipped = false;
                 wasRankIncreased = false;
                 ShowForwardSide();
@@ -94,9 +98,30 @@ namespace presenter
         /// <summary>
         /// Display previouse card.
         /// </summary>
-        public void Previouse()
+        public void PreviouseCard()
         {
-            current = previouse;
+            if (history.Count > 0 && historyPosition > 0 & historyPosition <= history.Count)
+            {
+                historyPosition--;
+                current = history[historyPosition];
+            }
+            ShowForwardSide();
+        }
+
+        /// <summary>
+        /// Displays next card if it extists or rundom if not.
+        /// </summary>
+        public void NextCard()
+        {
+            if (history.Count > 0 && historyPosition >= 0 & historyPosition < history.Count - 1)
+            {
+                historyPosition++;
+                current = history[historyPosition];
+            }
+            else
+            {
+                Next();
+            }
             ShowForwardSide();
         }
 
@@ -117,7 +142,6 @@ namespace presenter
                 }
 
                 view.SetBgColor(255, 255, 196);
-                //view.SetBgColor(252, 180, 16);
                 view.ShowEngSide(temp.Eng, temp.EngDesc, temp.Transcription);
                 view.ShowAdditionalInfo(model.Cards.Count, temp.Rank);
             }

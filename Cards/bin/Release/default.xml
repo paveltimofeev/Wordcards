@@ -19,14 +19,13 @@
     <Rank>3</Rank>
   </Card>
   <Card>
-    <Eng>be attracted</Eng>
+    <Eng>to be attracted</Eng>
     <EngDesc>Corporations will also be attracted to Android for the level of control it offers.</EngDesc>
     <Transcription>[ə'trækt]</Transcription>
-    <Rus>через
-сквозь</Rus>
-    <RusDesc>Темза протекает через Лондон.</RusDesc>
-    <WordType>6</WordType>
-    <Rank>2</Rank>
+    <Rus>черезвычайно</Rus>
+    <RusDesc>Карты Google Maps for Mobile стали черезвычайно популярны</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>beyond</Eng>
@@ -36,7 +35,7 @@
 на расстоянии</Rus>
     <RusDesc>по ту сторону океана</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>buzz</Eng>
@@ -59,7 +58,7 @@
 
 принять решение</Rus>
     <WordType>6</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>commitment</Eng>
@@ -171,7 +170,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>черезвычайно</Rus>
     <RusDesc>Карты Google Maps for Mobile стали черезвычайно популярны</RusDesc>
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>humanity</Eng>
@@ -184,8 +183,9 @@ to ensure that a device can run...</EngDesc>
     <Eng>incorporate</Eng>
     <EngDesc>... tools that incorporate cameras, players and GPS...</EngDesc>
     <Transcription>[ɪn'kɔ:pərɪt]</Transcription>
-    <Rus>соединять</Rus>
-    <WordType>2</WordType>
+    <Rus>кратко</Rus>
+    <RusDesc>кратко, сжато, лаконично; выразительно</RusDesc>
+    <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
   <Card>
@@ -209,12 +209,15 @@ to ensure that a device can run...</EngDesc>
     <Rank>2</Rank>
   </Card>
   <Card>
-    <Eng>leverage</Eng>
+    <Eng>to leverage</Eng>
     <EngDesc>mechanisms to leverage the data and functionality</EngDesc>
     <Transcription>['li:vərɪdʒ]</Transcription>
-    <Rus>действие рычага;</Rus>
+    <Rus>совершать что-либо;
+
+принять решение</Rus>
+    <RusDesc />
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>meanwhile</Eng>
@@ -240,7 +243,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>внтики и гаечки; 
 внутреннее устройство</Rus>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>offer</Eng>
@@ -291,28 +294,19 @@ to ensure that a device can run...</EngDesc>
     <Rank>1</Rank>
   </Card>
   <Card>
-    <Eng>stifle</Eng>
-    <Transcription>['staɪfl]</Transcription>
-    <Rus>душить 
-тушить (огонь) 
-переносный смысл - утаивать</Rus>
-    <WordType>2</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
     <Eng>ultimate</Eng>
     <Transcription>['ʌltɪmət]</Transcription>
     <Rus>окончательный; 
 максимальный</Rus>
     <WordType>6</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>ultimately</Eng>
     <Transcription>['ʌltɪmətlɪ]</Transcription>
     <Rus>в конечном счёте, в конце концов</Rus>
     <WordType>4</WordType>
-    <Rank>3</Rank>
+    <Rank>4</Rank>
   </Card>
   <Card>
     <Eng>to be allocated</Eng>
@@ -338,14 +332,14 @@ to ensure that a device can run...</EngDesc>
     <Rus>ли, или</Rus>
     <RusDesc>Инженер ли вы или девелопер...</RusDesc>
     <WordType>6</WordType>
-    <Rank>0</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>widespread</Eng>
     <Transcription>['waɪdspred]</Transcription>
     <Rus>широко распространённый</Rus>
     <WordType>3</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>roughly</Eng>
@@ -384,7 +378,7 @@ to ensure that a device can run...</EngDesc>
 похожий</Rus>
     <RusDesc>подобный контролам (подобный элементам управления)</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>lay out</Eng>
@@ -422,7 +416,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>определять </Rus>
     <RusDesc>Разметка пользовательского интерфейса задаётся в файле main.xml.</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>preferred way</Eng>
@@ -462,7 +456,7 @@ to ensure that a device can run...</EngDesc>
 кусок</Rus>
     <RusDesc>кусок кода</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>substitution</Eng>
@@ -472,7 +466,7 @@ to ensure that a device can run...</EngDesc>
 замещение</Rus>
     <RusDesc>замена дизайна разметки и индивидуальных элементов UI</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>keeping</Eng>
@@ -483,7 +477,7 @@ from the application code helps keep the code more concise.</EngDesc>
 хранение</Rus>
     <RusDesc>хранение визуального проектирования отдельно от кода приложения помогает поддерживать (писать) код более кратким.</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>concise</Eng>
@@ -503,27 +497,27 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>кратко</Rus>
     <RusDesc>кратко, сжато, лаконично; выразительно</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>fit together</Eng>
-    <EngDesc>They’re easy to follow and give a good idea of how Android applications
-fit together.</EngDesc>
-    <Transcription>[fɪt] [tə'ɡeðə]</Transcription>
-    <Rus>text</Rus>
-    <RusDesc>text</RusDesc>
-    <WordType>0</WordType>
     <Rank>2</Rank>
   </Card>
   <Card>
-    <Eng>to aim to</Eng>
-    <EngDesc>This toolkit aims to make creating interactive menu systems</EngDesc>
-    <Transcription>[eɪm]</Transcription>
-    <Rus>через
-сквозь</Rus>
-    <RusDesc>Темза протекает через Лондон.</RusDesc>
+    <Eng>to fit together</Eng>
+    <EngDesc>They’re easy to follow and give a good idea of how Android applications
+fit together.</EngDesc>
+    <Transcription>[fɪt] [tə'ɡeðə]</Transcription>
+    <Rus>подобный
+похожий</Rus>
+    <RusDesc>подобный контролам (подобный элементам управления)</RusDesc>
     <WordType>0</WordType>
     <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>to aim to</Eng>
+    <EngDesc>This toolkit aims to make creating interactive menu systems...</EngDesc>
+    <Transcription>[eɪm]</Transcription>
+    <Rus>стремится</Rus>
+    <RusDesc>Этот набор инструментов стремится сделать создание интерактивных систем меню...</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>smooth</Eng>
@@ -572,6 +566,6 @@ fit together.</EngDesc>
 сквозь</Rus>
     <RusDesc>Темза протекает через Лондон.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>2</Rank>
   </Card>
 </ArrayOfCard>
