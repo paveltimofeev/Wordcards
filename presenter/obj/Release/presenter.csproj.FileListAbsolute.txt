@@ -1,0 +1,26 @@
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Release\fb2.xslt
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Release\presenter.dll
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Release\presenter.pdb
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Release\model.dll
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Release\model.pdb
+d:\my documents\visual studio 2010\Projects\Cards\presenter\obj\Release\ResolveAssemblyReference.cache
+d:\my documents\visual studio 2010\Projects\Cards\presenter\obj\Release\presenter.dll
+d:\my documents\visual studio 2010\Projects\Cards\presenter\obj\Release\presenter.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Release\style_html.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Release\style_fb2.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Release\presenter.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Release\presenter.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Release\model.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Release\model.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\obj\Release\ResolveAssemblyReference.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\obj\Release\presenter.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\obj\Release\presenter.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Release\style_html.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Release\style_fb2.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Release\presenter.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Release\presenter.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Release\model.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Release\model.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\obj\Release\presenter.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\obj\Release\presenter.pdb

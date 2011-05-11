@@ -1,0 +1,20 @@
+d:\my documents\visual studio 2010\Projects\Cards\model\bin\Debug\model.dll
+d:\my documents\visual studio 2010\Projects\Cards\model\bin\Debug\model.pdb
+d:\my documents\visual studio 2010\Projects\Cards\model\obj\Debug\ResolveAssemblyReference.cache
+d:\my documents\visual studio 2010\Projects\Cards\model\obj\Debug\model.dll
+d:\my documents\visual studio 2010\Projects\Cards\model\obj\Debug\model.pdb
+d:\my documents\visual studio 2010\Projects\Cards\model\bin\Debug\fb2.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\model\bin\Debug\style_fb2.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\model\bin\Debug\model.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\model\bin\Debug\model.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\model\obj\Debug\ResolveAssemblyReference.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\model\obj\Debug\model.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\model\obj\Debug\model.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\model\bin\Debug\style_html.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\model\bin\Debug\style_html.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\model\bin\Debug\style_fb2.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\model\bin\Debug\model.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\model\bin\Debug\model.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pavel\Desktop\My Dropbox\Cards\model\obj\Debug\model.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\model\obj\Debug\model.pdb
