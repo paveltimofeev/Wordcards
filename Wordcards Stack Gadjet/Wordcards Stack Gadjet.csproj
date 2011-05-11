@@ -121,9 +121,6 @@
     <Resource Include="Images\delete.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\transform_scale_rev.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\resize_corner_96dpi.png" />
   </ItemGroup>
   <ItemGroup>
@@ -140,14 +137,29 @@
     <Resource Include="Images\document_page_previous.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\italy.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\cancel.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\control_fastforward.png" />
     <Resource Include="Images\control_rewind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bullet_disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\direction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\information.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

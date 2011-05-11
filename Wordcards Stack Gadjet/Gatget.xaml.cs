@@ -78,6 +78,7 @@ namespace Wordcards_Stack_Gadjet
         public void SetBgColor(byte r, byte g, byte b)
         {
             rectangle2.Fill = new SolidColorBrush(Color.FromRgb(r, g, b));
+            gridToolbar.Background = rectangle2.Fill;
         }
 
         public void ShowAdditionalInfo(int totalWords, int Rank)
@@ -102,6 +103,7 @@ namespace Wordcards_Stack_Gadjet
         public string EditTranscription { get { return edit_Transcription.Text; } }
         public string EditRus           { get { return edit_RusWord.Text; } }
         public string EditRusDesc       { get { return edit_RusDescriprion.Text; } }
+        public bool IsPlayMode { get; set; }
 
         #endregion
 
@@ -170,6 +172,7 @@ namespace Wordcards_Stack_Gadjet
 
         private void iDel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            //TODO: Close request.
             presenter.RemoveCurentCard();
         }
 
@@ -178,23 +181,30 @@ namespace Wordcards_Stack_Gadjet
             presenter.PlayMode();
         }
 
-        private void iSide1_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void iFlip_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            presenter.ShowForwardSide();
-            this.ShowGrid(EditEngContent);
-            edit_Word.Focus();
-        }
-
-        private void iSide2_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            presenter.ShowBackSide();
-            this.ShowGrid(EditRusContent);
-            edit_RusWord.Focus();
+            if (EditRusContent.Visibility != Visibility.Visible)
+            {
+                presenter.ShowBackSide();
+                this.ShowGrid(EditRusContent);
+                edit_RusWord.Focus();
+            }
+            else
+            {
+                presenter.ShowForwardSide();
+                this.ShowGrid(EditEngContent);
+                edit_Word.Focus();
+            }
         }
 
         private void iSave_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             presenter.Save();
+            iCancel_MouseLeftButtonDown(sender, e);
+        }
+
+        private void iCancel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
             this.ShowGrid(CardContent);
             gridStatusbar.Visibility = System.Windows.Visibility.Hidden;
 
@@ -205,12 +215,29 @@ namespace Wordcards_Stack_Gadjet
 
         private void Grid_MouseEnter(object sender, MouseEventArgs e)
         {
-            gridToolbar.Opacity = 1;
+            gridToolbar.Background = 
+                new Random().Next(0,2) == 1 ?
+                (Brush)new LinearGradientBrush(Color.FromArgb(125, 210, 180, 140), Color.FromRgb(210, 180, 140), 0) :
+                (Brush) new SolidColorBrush(Color.FromRgb(210, 180, 140));
+
+            iPla.Opacity = 1;
+            iEdt.Opacity = 1;
+            iNew.Opacity = 1;
+            iDel.Opacity = 1;
+            iClo.Opacity = 1;
         }
 
         private void Grid_MouseLeave(object sender, MouseEventArgs e)
         {
-            gridToolbar.Opacity = 0;
+            gridToolbar.Background = rectangle2.Fill;
+
+            if (!IsPlayMode)
+                iPla.Opacity = 0;
+
+            iEdt.Opacity = 0;
+            iNew.Opacity = 0;
+            iDel.Opacity = 0;
+            iClo.Opacity = 0;
         }
 
         private void gridToolbar_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -236,11 +263,6 @@ namespace Wordcards_Stack_Gadjet
             EditRusContent.Visibility = Visibility.Hidden;
 
             grid.Visibility = Visibility.Visible;
-        }
-
-        private void iCancel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            presenter.SwitchDisplay();
         }
 
         private void iPrevCard_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

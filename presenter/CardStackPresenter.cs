@@ -199,6 +199,8 @@ namespace presenter
                 playTimer.Start();
             else
                 playTimer.Stop();
+
+            view.IsPlayMode = playTimer.Enabled;
         }
 
         private void _playTimerElapsed(object sender, ElapsedEventArgs e)
@@ -238,7 +240,7 @@ namespace presenter
         public void SwitchDisplay()
         {
             state = ViewState.DISPLAY;
-            Next();
+            this.ShowForwardSide();
         }
     }
 }

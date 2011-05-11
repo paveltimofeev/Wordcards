@@ -16,7 +16,7 @@
     <Rus>прогресс, успех</Rus>
     <RusDesc>Значительные успехи</RusDesc>
     <WordType>1</WordType>
-    <Rank>3</Rank>
+    <Rank>4</Rank>
   </Card>
   <Card>
     <Eng>to be attracted</Eng>
@@ -25,7 +25,7 @@
     <Rus>черезвычайно</Rus>
     <RusDesc>Карты Google Maps for Mobile стали черезвычайно популярны</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>beyond</Eng>
@@ -42,7 +42,7 @@
     <EngDesc>industry buzz</EngDesc>
     <Rus>гул, жжужание, суматоха</Rus>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>cleanse</Eng>
@@ -67,7 +67,7 @@
     <Rus>обязательство</Rus>
     <RusDesc>семейные обязанности</RusDesc>
     <WordType>6</WordType>
-    <Rank>4</Rank>
+    <Rank>5</Rank>
   </Card>
   <Card>
     <Eng>along with ...</Eng>
@@ -76,7 +76,7 @@
     <Rus>вместе с ...</Rus>
     <RusDesc>Чайник был доставлен вместе с чаем.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>desirable</Eng>
@@ -133,7 +133,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>гарантировать</Rus>
     <RusDesc>... оптимизирован так чтобы гарантировать возможность запуска устройства...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>evolve</Eng>
@@ -143,7 +143,7 @@ to ensure that a device can run...</EngDesc>
 раскручивать</Rus>
     <RusDesc>Этот художник почерпнул свои идеи о форме и цвете из работ более старого мастера.</RusDesc>
     <WordType>1</WordType>
-    <Rank>1</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>explain</Eng>
@@ -161,7 +161,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>телефонная трубка</Rus>
     <RusDesc>мобильные телефонные трубки</RusDesc>
     <WordType>1</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>hugely</Eng>
@@ -197,7 +197,7 @@ to ensure that a device can run...</EngDesc>
     <RusDesc>намерение убить
 намерение использовать в комерческих целях</RusDesc>
     <WordType>6</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>lack</Eng>
@@ -206,7 +206,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>недостаток</Rus>
     <RusDesc>недостаток открытости</RusDesc>
     <WordType>1</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>to leverage</Eng>
@@ -226,7 +226,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>тем временем, между тем, в это время</Rus>
     <RusDesc>Разработчики, тем временем, имеют возможность ...</RusDesc>
     <WordType>6</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>novice</Eng>
@@ -243,7 +243,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>внтики и гаечки; 
 внутреннее устройство</Rus>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>offer</Eng>
@@ -252,7 +252,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>предлагать</Rus>
     <RusDesc>Андроид предлагает разработчикам возможность создавать инновационные програмные продукты.</RusDesc>
     <WordType>6</WordType>
-    <Rank>4</Rank>
+    <Rank>5</Rank>
   </Card>
   <Card>
     <Eng>quest</Eng>
@@ -275,7 +275,7 @@ to ensure that a device can run...</EngDesc>
 освобождать</Rus>
     <RusDesc>Он был освобождён от своего обещания.</RusDesc>
     <WordType>6</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>reusable</Eng>
@@ -336,10 +336,12 @@ to ensure that a device can run...</EngDesc>
   </Card>
   <Card>
     <Eng>widespread</Eng>
+    <EngDesc />
     <Transcription>['waɪdspred]</Transcription>
-    <Rus>широко распространённый</Rus>
-    <WordType>3</WordType>
-    <Rank>3</Rank>
+    <Rus>text</Rus>
+    <RusDesc>text</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>roughly</Eng>
@@ -384,7 +386,7 @@ to ensure that a device can run...</EngDesc>
     <Eng>lay out</Eng>
     <EngDesc>The goods for sale were laid out attractively.</EngDesc>
     <Transcription>[leɪ] [aut]</Transcription>
-    <Rus>выкладывать, выставлять</Rus>
+    <Rus>выставлять</Rus>
     <RusDesc>Товары на продажу были выставлены так, что привлекали внимание.</RusDesc>
     <WordType>0</WordType>
     <Rank>0</Rank>
@@ -435,7 +437,7 @@ to ensure that a device can run...</EngDesc>
 ясно, чётко</Rus>
     <RusDesc>...он чётко разъединяет логику вашего приложения.</RusDesc>
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>decouples</Eng>
@@ -477,7 +479,7 @@ from the application code helps keep the code more concise.</EngDesc>
 хранение</Rus>
     <RusDesc>хранение визуального проектирования отдельно от кода приложения помогает поддерживать (писать) код более кратким.</RusDesc>
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>concise</Eng>
@@ -487,7 +489,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>краткий</Rus>
     <RusDesc>... помогает поддерживать (писать) код более кратким.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>concisely</Eng>
@@ -517,7 +519,7 @@ fit together.</EngDesc>
     <Rus>стремится</Rus>
     <RusDesc>Этот набор инструментов стремится сделать создание интерактивных систем меню...</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>smooth</Eng>
@@ -541,11 +543,14 @@ fit together.</EngDesc>
     <Eng>impressed</Eng>
     <EngDesc>We were particularly impressed that our room was cleaned every day and towels and bedding changed daily too!</EngDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>along with</Eng>
     <EngDesc>Kettle was delivered along with tea.</EngDesc>
+    <Transcription />
+    <Rus />
+    <RusDesc />
     <WordType>0</WordType>
     <Rank>0</Rank>
   </Card>
@@ -566,6 +571,6 @@ fit together.</EngDesc>
 сквозь</Rus>
     <RusDesc>Темза протекает через Лондон.</RusDesc>
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
 </ArrayOfCard>

@@ -78,7 +78,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <Grid Grid.Column="1" Grid.Row="0" Name="gridToolbar" Opacity="0.0" Margin="0,0,0,0" Height="24" VerticalAlignment="Top" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave" MouseLeftButtonDown="gridToolbar_MouseLeftButtonDown"  Background="#FFFFE7AC" Cursor="Hand">
+            <Grid Grid.Column="1" Grid.Row="0" Name="gridToolbar" Opacity="1.0" Margin="0,0,0,0" Height="24" VerticalAlignment="Top" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave" MouseLeftButtonDown="gridToolbar_MouseLeftButtonDown"  Background="#FFFFFFC4" Cursor="Hand">
                 <Grid.ContextMenu>
                     <ContextMenu>
                         <ContextMenu.Resources>
@@ -114,11 +114,11 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="24"/>
             </Grid.RowDefinitions>
-                <Image Grid.Column="0" Grid.Row="0" Name="iNew" Style="{StaticResource button}" MouseLeftButtonDown="iNew_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/add.png"/>
-                <Image Grid.Column="1" Grid.Row="0" Name="iEdt" Style="{StaticResource button}" MouseLeftButtonDown="iEdt_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/billiard_marker.png"/>
-                <Image Grid.Column="2" Grid.Row="0" Name="iDel" Style="{StaticResource button}" MouseLeftButtonDown="iDel_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/delete.png"/>
-                <Image Grid.Column="3" Grid.Row="0" Name="iPla" Style="{StaticResource button}" MouseLeftButtonDown="iPla_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/control_play_blue.png"/>
-                <Image Grid.Column="6" Grid.Row="0" Name="iClo" Style="{StaticResource button}" MouseLeftButtonDown="iClo_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/cross.png" />
+                <Image Grid.Column="0" Grid.Row="0" Name="iNew" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iNew_MouseLeftButtonDown" ToolTip="Создать" Source="/Wordcards%20Stack%20Gadjet;component/Images/add.png"/>
+                <Image Grid.Column="1" Grid.Row="0" Name="iEdt" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iEdt_MouseLeftButtonDown" ToolTip="Изменить" Source="/Wordcards%20Stack%20Gadjet;component/Images/billiard_marker.png"/>
+                <Image Grid.Column="2" Grid.Row="0" Name="iDel" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iDel_MouseLeftButtonDown" ToolTip="Удалить" Source="/Wordcards%20Stack%20Gadjet;component/Images/delete.png"/>
+                <Image Grid.Column="3" Grid.Row="0" Name="iPla" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iPla_MouseLeftButtonDown" ToolTip="Перейти в Play-mode" Source="/Wordcards%20Stack%20Gadjet;component/Images/control_play_blue.png"/>
+                <Image Grid.Column="6" Grid.Row="0" Name="iClo" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iClo_MouseLeftButtonDown" ToolTip="Закрыть" Source="/Wordcards%20Stack%20Gadjet;component/Images/cross.png" />
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0" Visibility="Hidden"  Name="gridStatusbar" Margin="3,3,3,3" Height="24" VerticalAlignment="Bottom">
@@ -132,10 +132,9 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="24"/>
                 </Grid.RowDefinitions>
-                <Image Grid.Column="0" Grid.Row="0" Name="iSide1"  Style="{StaticResource button}" MouseLeftButtonDown="iSide1_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/document_page_previous.png"/>
-                <Image Grid.Column="1" Grid.Row="0" Name="iSide2"  Style="{StaticResource button}" MouseLeftButtonDown="iSide2_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/document_page_next.png"/>
-                <Image Grid.Column="2" Grid.Row="0" Name="iSave"   Style="{StaticResource button}" MouseLeftButtonDown="iSave_MouseLeftButtonDown"  Source="/Wordcards%20Stack%20Gadjet;component/Images/database_save.png"/>
-                <Image Grid.Column="3" Grid.Row="0" Name="iCancel" Style="{StaticResource button}" MouseLeftButtonDown="iCancel_MouseLeftButtonDown" Source="/Wordcards%20Stack%20Gadjet;component/Images/cancel.png"/>
+                <Image Grid.Column="0" Grid.Row="0" Name="iFlip"  Style="{StaticResource button}" MouseLeftButtonDown="iFlip_MouseLeftButtonDown"  ToolTip="Перевернуть" Source="/Wordcards%20Stack%20Gadjet;component/Images/direction.png"/>
+                <Image Grid.Column="1" Grid.Row="0" Name="iSave"   Style="{StaticResource button}" MouseLeftButtonDown="iSave_MouseLeftButtonDown"   ToolTip="Сохранить изменения"  Source="/Wordcards%20Stack%20Gadjet;component/Images/disk.png"/>
+                <Image Grid.Column="2" Grid.Row="0" Name="iCancel" Style="{StaticResource button}" MouseLeftButtonDown="iCancel_MouseLeftButtonDown" ToolTip="Отменить изменения" Source="/Wordcards%20Stack%20Gadjet;component/Images/cancel.png"/>
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0" Name="CardContent" Visibility="Visible" Margin="3,28,3,3" MouseLeftButtonDown="CardContent_MouseLeftButtonDown" MouseRightButtonDown="CardContent_MouseRightButtonDown">
@@ -146,7 +145,7 @@
 
             <Grid Grid.Column="1" Grid.Row="0" Name="EditEngContent" Margin="3,28,3,3" Visibility="Hidden">
                 <TextBox Style="{StaticResource editableWordTextField}"  VerticalAlignment="Top" Name="edit_Word" Text="text" Margin="6,22,6,0" Height="43"/>
-                <TextBox Style="{StaticResource editableTextField}" VerticalAlignment="Top" Name="edit_Transcription" Text="[transcription]" Margin="6,66,6,0" Height="24"/>
+                <TextBox Style="{StaticResource editableTextField}" VerticalAlignment="Top" Name="edit_Transcription" Text="[transcription]" Margin="6,71,6,0" Height="24"/>
                 <TextBox Style="{StaticResource editableDescTextField}" Name="edit_Descriprion" Text="text" Margin="6,101,6,29" />
             </Grid>
 

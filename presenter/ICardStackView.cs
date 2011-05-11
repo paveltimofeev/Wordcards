@@ -42,6 +42,11 @@ namespace presenter
         void BringOnTop();
 
         /// <summary>
+        /// Change BG color
+        /// </summary>
+        void SetBgColor(byte r, byte g, byte b);
+
+        /// <summary>
         /// Current state (for ex.: edit, new, or dystplay).
         /// </summary>
         //ViewState State { get; set; }
@@ -71,10 +76,7 @@ namespace presenter
         /// </summary>
         string EditRusDesc { get; }
 
-        /// <summary>
-        /// Change BG color
-        /// </summary>
-        void SetBgColor(byte r, byte g, byte b);
+        bool IsPlayMode { get; set; }
     }
 
     /// <summary>

@@ -4,19 +4,19 @@
     <Eng>adoption</Eng>
     <EngDesc>What Will Drive Android Adoption?</EngDesc>
     <Transcription>[ə'dɔpʃ(ə)n]</Transcription>
-    <Rus>принятие; 
-усыновление</Rus>
-    <WordType>1</WordType>
+    <Rus>принятие</Rus>
+    <RusDesc>Что обеспечит принятие новой платформы Andriod?</RusDesc>
+    <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>advance</Eng>
     <EngDesc>Significant advances</EngDesc>
     <Transcription>[əd'vɑ:ns]</Transcription>
-    <Rus>прогресс, успех</Rus>
+    <Rus>успех</Rus>
     <RusDesc>Значительные успехи</RusDesc>
-    <WordType>1</WordType>
-    <Rank>3</Rank>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>to be attracted</Eng>
@@ -67,7 +67,7 @@
     <Rus>обязательство</Rus>
     <RusDesc>семейные обязанности</RusDesc>
     <WordType>6</WordType>
-    <Rank>3</Rank>
+    <Rank>4</Rank>
   </Card>
   <Card>
     <Eng>along with ...</Eng>
@@ -93,19 +93,18 @@ Desirable son.</EngDesc>
     <Eng>desire for</Eng>
     <EngDesc>a desire for knowledge</EngDesc>
     <Transcription>[dɪ'zaɪə]</Transcription>
-    <Rus>жажда (чего-л.); 
-страсть</Rus>
+    <Rus>жажда</Rus>
     <RusDesc>жажда знаний</RusDesc>
-    <WordType>1</WordType>
-    <Rank>2</Rank>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>to desire</Eng>
     <EngDesc>What do you desire most in life?</EngDesc>
     <Transcription>[dɪ'zaɪə]</Transcription>
-    <Rus>жаждать, мечтать;</Rus>
+    <Rus>желать</Rus>
     <RusDesc>Чего вы больше всего желаете в жизни?</RusDesc>
-    <WordType>2</WordType>
+    <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
   <Card>
@@ -114,7 +113,7 @@ Desirable son.</EngDesc>
     <Rus>несмотря на</Rus>
     <RusDesc>Несмотря на название, ...</RusDesc>
     <WordType>6</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>circumstance</Eng>
@@ -141,8 +140,8 @@ to ensure that a device can run...</EngDesc>
     <Transcription>[ɪ'vɔlv]</Transcription>
     <Rus>развивать
 раскручивать</Rus>
-    <RusDesc>Этот художник почерпнул свои идеи о форме и цвете из работ более старого мастера.</RusDesc>
-    <WordType>1</WordType>
+    <RusDesc>Художник почерпнул свои идеи о форме и цвете из работ более старого мастера.</RusDesc>
+    <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
   <Card>
@@ -177,7 +176,7 @@ to ensure that a device can run...</EngDesc>
     <Transcription>[hju:'mænɪtɪ]</Transcription>
     <Rus>человечество</Rus>
     <WordType>1</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>incorporate</Eng>
@@ -217,15 +216,15 @@ to ensure that a device can run...</EngDesc>
 принять решение</Rus>
     <RusDesc />
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>meanwhile</Eng>
     <EngDesc>Developers meanwhile have the oportunity to ...</EngDesc>
     <Transcription>[ˌmiːn'waɪl] </Transcription>
-    <Rus>тем временем, между тем, в это время</Rus>
+    <Rus>тем временем</Rus>
     <RusDesc>Разработчики, тем временем, имеют возможность ...</RusDesc>
-    <WordType>6</WordType>
+    <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
   <Card>
@@ -235,14 +234,6 @@ to ensure that a device can run...</EngDesc>
     <Rus>новичёк</Rus>
     <RusDesc>полный новичёк в програмировании</RusDesc>
     <WordType>1</WordType>
-    <Rank>1</Rank>
-  </Card>
-  <Card>
-    <Eng>nuts and bolts</Eng>
-    <EngDesc>Open access to the nuts and bolts</EngDesc>
-    <Rus>внтики и гаечки; 
-внутреннее устройство</Rus>
-    <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
   <Card>
@@ -258,7 +249,7 @@ to ensure that a device can run...</EngDesc>
     <Eng>quest</Eng>
     <Rus>поиск</Rus>
     <WordType>1</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>quest</Eng>
@@ -284,13 +275,12 @@ to ensure that a device can run...</EngDesc>
     <Rank>0</Rank>
   </Card>
   <Card>
-    <Eng>significiant 
-(from: sign)</Eng>
+    <Eng>significiant (from: sign)</Eng>
     <EngDesc>Significant advances</EngDesc>
     <Transcription>[sɪɡ'nɪfɪkənt]</Transcription>
     <Rus>значительный</Rus>
-    <RusDesc>Значительные успехи</RusDesc>
-    <WordType>3</WordType>
+    <RusDesc>Значительные успехи.</RusDesc>
+    <WordType>0</WordType>
     <Rank>1</Rank>
   </Card>
   <Card>
@@ -299,7 +289,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>окончательный; 
 максимальный</Rus>
     <WordType>6</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>ultimately</Eng>
@@ -323,7 +313,7 @@ to ensure that a device can run...</EngDesc>
     <Transcription>['və:sətaɪl]</Transcription>
     <Rus>гибкий многогранный</Rus>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>whether</Eng>
@@ -332,7 +322,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>ли, или</Rus>
     <RusDesc>Инженер ли вы или девелопер...</RusDesc>
     <WordType>6</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>widespread</Eng>
@@ -355,11 +345,10 @@ to ensure that a device can run...</EngDesc>
     <Eng>skeleton</Eng>
     <EngDesc>The following snippet shows the skeleton code for an Activity-based class.</EngDesc>
     <Transcription>['skelɪtn]</Transcription>
-    <Rus>костяк
-основа</Rus>
+    <Rus>основа</Rus>
     <RusDesc>Следующий сниппет показывает основу кода для Activity-based класса.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>to extend</Eng>
@@ -384,7 +373,7 @@ to ensure that a device can run...</EngDesc>
     <Eng>lay out</Eng>
     <EngDesc>The goods for sale were laid out attractively.</EngDesc>
     <Transcription>[leɪ] [aut]</Transcription>
-    <Rus>выкладывать, выставлять</Rus>
+    <Rus>выставлять</Rus>
     <RusDesc>Товары на продажу были выставлены так, что привлекали внимание.</RusDesc>
     <WordType>0</WordType>
     <Rank>0</Rank>
@@ -410,13 +399,13 @@ to ensure that a device can run...</EngDesc>
     <Rank>1</Rank>
   </Card>
   <Card>
-    <Eng>define</Eng>
+    <Eng>to define</Eng>
     <EngDesc>UI layout defined in the main.xml file</EngDesc>
     <Transcription>[dɪ'faɪn]</Transcription>
     <Rus>определять </Rus>
-    <RusDesc>Разметка пользовательского интерфейса задаётся в файле main.xml.</RusDesc>
+    <RusDesc>Разметка пользовательского интерфейса определяется в файле main.xml.</RusDesc>
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>0</Rank>
   </Card>
   <Card>
     <Eng>preferred way</Eng>
@@ -466,7 +455,7 @@ to ensure that a device can run...</EngDesc>
 замещение</Rus>
     <RusDesc>замена дизайна разметки и индивидуальных элементов UI</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>keeping</Eng>
@@ -481,13 +470,12 @@ from the application code helps keep the code more concise.</EngDesc>
   </Card>
   <Card>
     <Eng>concise</Eng>
-    <EngDesc>...keeping the visual design decoupled
-from the application code helps keep the code more concise.</EngDesc>
+    <EngDesc>... to keep code more concise.</EngDesc>
     <Transcription>[kən'saɪs]</Transcription>
     <Rus>краткий</Rus>
-    <RusDesc>... помогает поддерживать (писать) код более кратким.</RusDesc>
+    <RusDesc>... придерживаться написания более краткого кода.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>concisely</Eng>
@@ -504,11 +492,10 @@ from the application code helps keep the code more concise.</EngDesc>
     <EngDesc>They’re easy to follow and give a good idea of how Android applications
 fit together.</EngDesc>
     <Transcription>[fɪt] [tə'ɡeðə]</Transcription>
-    <Rus>подобный
-похожий</Rus>
-    <RusDesc>подобный контролам (подобный элементам управления)</RusDesc>
+    <Rus>подходить друг-к-другу</Rus>
+    <RusDesc>Они легки для понимания и хорошо показывают как приложения Android подходят друг-к-другу.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>to aim to</Eng>
@@ -535,13 +522,13 @@ fit together.</EngDesc>
     <Rus>быть размещённым</Rus>
     <RusDesc>Нас разместили в номере на третьем этаже.</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>impressed</Eng>
     <EngDesc>We were particularly impressed that our room was cleaned every day and towels and bedding changed daily too!</EngDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>along with</Eng>
@@ -566,6 +553,6 @@ fit together.</EngDesc>
 сквозь</Rus>
     <RusDesc>Темза протекает через Лондон.</RusDesc>
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
   </Card>
 </ArrayOfCard>

@@ -1,8 +1,6 @@
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Debug\Wordcards Stack Gadjet.exe
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Debug\Wordcards Stack Gadjet.pdb
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\MainWindow.baml
-C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\MainWindow.g.cs
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\App.g.cs
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Wordcards Stack Gadjet_MarkupCompile.cache
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Wordcards Stack Gadjet.g.resources
@@ -18,8 +16,6 @@ C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Debug\present
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Debug\model.pdb
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gadjet.baml
-C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gadjet.g.cs
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Debug\Wordcards Stack Gadjet.exe.config
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Wordcards Stack Gadjet.exe
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Wordcards Stack Gadjet.pdb
@@ -40,3 +36,5 @@ d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadj
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\ResGen.write.1.tlog
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gatget.baml
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gatget.g.cs
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gatget.baml
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Debug\Gatget.g.cs
