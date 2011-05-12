@@ -139,7 +139,13 @@ namespace presenter
         {
             if (Cards != null && Cards.Count > 0)
             {
+                //int coef = (Cards.Capacity / 3);
+                //double mex = Math.Exp(Cards.Capacity / coef);
+                //int r = new Random().Next(0, (int)(mex));
+                //int i = (int)Math.Log(r, Math.E);
+
                 int i = new Random().Next(0, Cards.Count);
+
                 return Cards[i];
             }
             else

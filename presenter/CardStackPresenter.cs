@@ -72,27 +72,7 @@ namespace presenter
                 base.RemoveCard(temp.Eng, temp.EngDesc, temp.Transcription, temp.Rus, temp.RusDesc);
                 this.model.SaveDatabase();
             }
-            this.Next();
-        }
-
-        /// <summary>
-        /// Display next rundom card.
-        /// </summary>
-        public void Next()
-        {
-            Card temp = model.GetRandom();
-
-            if (temp != null)
-            {
-                current = model.Cards.IndexOf(temp);
-
-                history.Add(current);
-                historyPosition = history.Count - 1;
-
-                isFlipped = false;
-                wasRankIncreased = false;
-                ShowForwardSide();
-            }
+            this.NextCard();
         }
 
         /// <summary>
@@ -113,16 +93,53 @@ namespace presenter
         /// </summary>
         public void NextCard()
         {
+            ChangeRank();
+
             if (history.Count > 0 && historyPosition >= 0 & historyPosition < history.Count - 1)
             {
                 historyPosition++;
                 current = history[historyPosition];
+                ShowForwardSide();
             }
             else
             {
-                Next();
+                Card temp = model.GetRandom();
+
+                if (temp != null)
+                {
+                    current = model.Cards.IndexOf(temp);
+
+                    history.Add(current);
+                    historyPosition = history.Count - 1;
+
+                    isFlipped = false;
+                    wasRankIncreased = false;
+                    ShowForwardSide();
+                }
             }
-            ShowForwardSide();
+        }
+
+        private void ChangeRank()
+        {
+            ///If user didn't flip card decrease it's rank otherwise increase it.
+            if (state == ViewState.DISPLAY && current >= 0)
+            {
+                Card curr = model.Cards[current];
+                if (!wasRankIncreased)
+                {
+                    if (curr.Rank > 0)
+                    {
+                        curr.Rank--;
+                    }
+                }
+                else
+                {
+                    curr.Rank++;
+                    wasRankIncreased = false;
+                }
+
+                model.SaveDatabase();
+            }
         }
 
         /// <summary>
@@ -155,14 +172,12 @@ namespace presenter
             if (current >= 0)
             {
                 Card temp = model.Cards[current];
-
+                
                 if (state == ViewState.DISPLAY && !wasRankIncreased)
                 {
-                    temp.Rank++;
                     wasRankIncreased = true;
-                    model.SaveDatabase();
                 }
-
+                
                 ///save other side data if current state is edit or new.
                 if (state == ViewState.EDIT | state == ViewState.NEW)
                 {
@@ -219,6 +234,9 @@ namespace presenter
             view.Refresh();
         }
 
+        /// <summary>
+        /// Switch to "Create new card" mode.
+        /// </summary>
         public void SwitchNew()
         {
             state = ViewState.NEW;
@@ -227,6 +245,9 @@ namespace presenter
             view.ShowEngSide("", "", "");
         }
 
+        /// <summary>
+        /// Switch to "Edid card" mode.
+        /// </summary>
         public void SwitchEdit()
         {
             state = ViewState.EDIT;
@@ -237,6 +258,9 @@ namespace presenter
             }
         }
 
+        /// <summary>
+        /// Switch to "Display card" mode (default).
+        /// </summary>
         public void SwitchDisplay()
         {
             state = ViewState.DISPLAY;

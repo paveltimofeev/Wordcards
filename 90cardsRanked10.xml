@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <ArrayOfCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Card>
     <Eng>adoption</Eng>
@@ -7,7 +7,7 @@
     <Rus>принятие</Rus>
     <RusDesc>Что обеспечит принятие новой платформы Andriod?</RusDesc>
     <WordType>0</WordType>
-    <Rank>12</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>advance</Eng>
@@ -252,7 +252,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>выставлять</Rus>
     <RusDesc>Товары на продажу были выставлены так, что привлекали внимание.</RusDesc>
     <WordType>0</WordType>
-    <Rank>11</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>meanwhile</Eng>
@@ -365,7 +365,7 @@ from the application code helps keep the code more concise.</EngDesc>
 кусок</Rus>
     <RusDesc>кусок кода</RusDesc>
     <WordType>0</WordType>
-    <Rank>11</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>substitution</Eng>
@@ -477,7 +477,7 @@ fit together.</EngDesc>
     <Rus>подходить друг-к-другу</Rus>
     <RusDesc>Они легки для понимания и хорошо показывают как приложения Android подходят друг-к-другу.</RusDesc>
     <WordType>0</WordType>
-    <Rank>11</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>to inflate</Eng>

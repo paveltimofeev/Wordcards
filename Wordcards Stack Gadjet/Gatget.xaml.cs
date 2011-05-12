@@ -49,7 +49,7 @@ namespace Wordcards_Stack_Gadjet
             this.SourceInitialized += new EventHandler(Gadjet_SourceInitialized);
 
             presenter = new CardStackPresenter(this);
-            presenter.Next();
+            presenter.NextCard();
         }
 
         #region ICardStackView
@@ -93,7 +93,9 @@ namespace Wordcards_Stack_Gadjet
 
         public void BringOnTop()
         {
-            presenter.Next();
+            presenter.NextCard();
+
+            //cos of shouldn't steal user focus.
             this.Topmost = true;
             this.Topmost = false;
         }
@@ -248,7 +250,7 @@ namespace Wordcards_Stack_Gadjet
 
         private void CardContent_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            presenter.Next();
+            presenter.NextCard();
         }
 
         private void CardContent_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
