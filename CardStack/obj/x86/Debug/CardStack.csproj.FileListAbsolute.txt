@@ -1,0 +1,28 @@
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\bin\Debug\presenter.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\bin\Debug\model.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\bin\Debug\presenter.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\bin\Debug\model.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\CardStack.Properties.Resources.resources
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\CardStack.StackForm.resources
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\bin\Debug\Wordcards stack.exe.config
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\bin\Debug\Wordcards stack.exe
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\bin\Debug\Wordcards stack.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\Wordcards stack.exe
+C:\Users\Pavel\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\Wordcards stack.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\bin\Debug\Wordcards stack.exe.config
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\bin\Debug\Wordcards stack.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\bin\Debug\Wordcards stack.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\bin\Debug\presenter.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\bin\Debug\model.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\bin\Debug\presenter.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\bin\Debug\model.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\CardStack.StackForm.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\CardStack.Properties.Resources.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\Wordcards stack.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\CardStack\obj\x86\Debug\Wordcards stack.pdb
