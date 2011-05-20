@@ -1,0 +1,39 @@
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\Wordcards Stack Gadjet.exe.config
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\Wordcards Stack Gadjet.exe
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\Wordcards Stack Gadjet.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\presenter.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\presenter.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\App.g.cs
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet_MarkupCompile.cache
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet.g.resources
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards_Stack_Gadjet.Properties.Resources.resources
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet.exe
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadjet.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gadjet.baml
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gadjet.g.cs
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\test.baml
+C:\Users\Pavel\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\test.g.cs
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\ResolveAssemblyReference.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\App.g.cs
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\GenerateResource.read.1.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\GenerateResource.write.1.tlog
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\presenter.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\presenter.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\model.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\Wordcards Stack Gadget.exe.config
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gadget.g.cs
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadget_MarkupCompile.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadget_MarkupCompile.lref
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Gadget.baml
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadget.g.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards_Stack_Gadget.Properties.Resources.resources
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\Wordcards Stack Gadget.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\bin\Release\Wordcards Stack Gadget.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadget.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Wordcards Stack Gadjet\obj\x86\Release\Wordcards Stack Gadget.pdb

@@ -1,0 +1,26 @@
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Debug\presenter.dll
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Debug\presenter.pdb
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Debug\model.dll
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Debug\model.pdb
+d:\my documents\visual studio 2010\Projects\Cards\presenter\obj\Debug\ResolveAssemblyReference.cache
+d:\my documents\visual studio 2010\Projects\Cards\presenter\obj\Debug\presenter.dll
+d:\my documents\visual studio 2010\Projects\Cards\presenter\obj\Debug\presenter.pdb
+d:\my documents\visual studio 2010\Projects\Cards\presenter\bin\Debug\fb2.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Debug\style_fb2.xslt
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Debug\presenter.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Debug\presenter.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Debug\model.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Debug\model.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\obj\Debug\ResolveAssemblyReference.cache
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\obj\Debug\presenter.dll
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\obj\Debug\presenter.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\presenter\bin\Debug\style_html.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Debug\style_html.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Debug\style_fb2.xslt
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Debug\presenter.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Debug\presenter.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Debug\model.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\bin\Debug\model.pdb
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\obj\Debug\presenter.dll
+C:\Users\Pavel\Desktop\My Dropbox\Cards\presenter\obj\Debug\presenter.pdb
