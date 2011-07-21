@@ -10,14 +10,9 @@
         ShowInTaskbar="False" 
         AllowsTransparency="true" 
         Background="Transparent" 
-        WindowStyle="None" 
-        Height= "{Binding Source={x:Static config:Settings.Default}, Path=g_size_h, Mode=TwoWay}"
-        Width=  "{Binding Source={x:Static config:Settings.Default}, Path=g_size_w, Mode=TwoWay}"
-        Top=    "{Binding Source={x:Static config:Settings.Default}, Path=g_pos_top, Mode=TwoWay}"
-        Left=   "{Binding Source={x:Static config:Settings.Default}, Path=g_pos_left, Mode=TwoWay}"
-        MinWidth="200" 
+        WindowStyle="None" MinWidth="200" 
         MinHeight="200" 
-        PreviewMouseMove="Window_PreviewMouseMove" KeyDown="Window_KeyDown" Icon="/Wordcards%20Stack%20Gadget;component/Writing%20App.ico">
+        PreviewMouseMove="Window_PreviewMouseMove" KeyDown="Window_KeyDown" Icon="/Wordcards%20Stack%20Gadget;component/Writing%20App.ico" LocationChanged="Window_LocationChanged" d:DesignHeight="316" d:DesignWidth="303" Height="300" SizeChanged="Window_SizeChanged" Width="{Binding}">
     <Window.Resources>
         <Style x:Key="button" TargetType="Image">
             <Setter Property="Width" Value="24"/>
@@ -58,7 +53,8 @@
             <Setter Property="VerticalContentAlignment" Value="Top"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
             <Setter Property="TextAlignment" Value="Center"/>
-            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="BorderBrush" Value="#FFE5D9D9"/>
             <Setter Property="TextWrapping" Value="Wrap"/>
         </Style>
         <Style x:Key="editableWordTextField" BasedOn="{StaticResource editableTextField}" TargetType="TextBox">
@@ -99,18 +95,19 @@
                                 <Setter Property="Cursor" Value="Hand"/>
                             </Style>
                         </ContextMenu.Resources>
-                        <MenuItem Header="Предыдущая карточка"/>
-                        <MenuItem Header="Следующая карточка"/>
-                        <MenuItem Header="Сохранить карточки в файл..."/>
-                        <MenuItem Header="Открыть карточки из файла..."/>
-                        <MenuItem Header="Перейти в Play mode"/>
-                        <MenuItem Header="Добавить новую карточку"/>
-                        <MenuItem Header="Текущая карточка">
-                            <MenuItem Header="Изменить"/>
-                            <MenuItem Header="Удалить"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextPreviousCard}"           Name="prvCard" Click="MenuItem_Click"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextNextCard}"            Name="nxtCard" Click="MenuItem_Click"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextSaveTofile}"  Name="sv" Click="MenuItem_Click"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextOpenFile}"  Name="ld" Click="MenuItem_Click"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextPlayMode}"           Name="plyMode" Click="MenuItem_Click"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextNewCard}"       Name="addCard" Click="MenuItem_Click"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextCurrentCard}" >
+                            <MenuItem Header="{x:Static config:Resources.MenuItemTextChangeCard}"                  Name="chgCard" Click="MenuItem_Click"/>
+                            <MenuItem Header="{x:Static config:Resources.MenuItemTextDeleteCard}"                   Name="delCard" Click="MenuItem_Click"/>
+                            <MenuItem Header="{x:Static config:Resources.MenuItemTextSetRank}" Name="setCard" Click="MenuItem_Click" IsEnabled="False" />
                         </MenuItem>
-                        <MenuItem Header="О программе..."/>
-                        <MenuItem Header="Закрыть"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextAbout}"                Name="abt" Click="MenuItem_Click"/>
+                        <MenuItem Header="{x:Static config:Resources.MenuItemTextClose}"                       Name="cls" Click="MenuItem_Click"/>
                     </ContextMenu>
                 </Grid.ContextMenu>
                 <Grid.ColumnDefinitions>
@@ -124,11 +121,11 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="24"/>
             </Grid.RowDefinitions>
-                <Image Grid.Column="0" Grid.Row="0" Name="iNew" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iNew_MouseLeftButtonDown" ToolTip="Создать" Source="/Wordcards%20Stack%20Gadget;component/Images/add.png"/>
-                <Image Grid.Column="1" Grid.Row="0" Name="iEdt" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iEdt_MouseLeftButtonDown" ToolTip="Изменить" Source="/Wordcards%20Stack%20Gadget;component/Images/billiard_marker.png"/>
-                <Image Grid.Column="2" Grid.Row="0" Name="iDel" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iDel_MouseLeftButtonDown" ToolTip="Удалить" Source="/Wordcards%20Stack%20Gadget;component/Images/delete.png"/>
-                <Image Grid.Column="3" Grid.Row="0" Name="iPla" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iPla_MouseLeftButtonDown" ToolTip="Перейти в Play-mode" Source="/Wordcards%20Stack%20Gadget;component/Images/control_play_blue.png"/>
-                <Image Grid.Column="6" Grid.Row="0" Name="iClo" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iClo_MouseLeftButtonDown" ToolTip="Закрыть" Source="/Wordcards%20Stack%20Gadget;component/Images/cross.png" />
+                <Image Grid.Column="0" Grid.Row="0" Name="iNew" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iNew_MouseLeftButtonDown" ToolTip="{x:Static config:Resources.MenuItemTextNewCard}" Source="/Wordcards%20Stack%20Gadget;component/Images/add.png"/>
+                <Image Grid.Column="1" Grid.Row="0" Name="iEdt" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iEdt_MouseLeftButtonDown" ToolTip="{x:Static config:Resources.MenuItemTextChangeCard}" Source="/Wordcards%20Stack%20Gadget;component/Images/billiard_marker.png"/>
+                <Image Grid.Column="2" Grid.Row="0" Name="iDel" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iDel_MouseLeftButtonDown" ToolTip="{x:Static config:Resources.MenuItemTextDeleteCard}" Source="/Wordcards%20Stack%20Gadget;component/Images/delete.png"/>
+                <Image Grid.Column="3" Grid.Row="0" Name="iPla" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iPla_MouseLeftButtonDown" ToolTip="{x:Static config:Resources.MenuItemTextPlayMode}" Source="/Wordcards%20Stack%20Gadget;component/Images/control_play_blue.png"/>
+                <Image Grid.Column="6" Grid.Row="0" Name="iClo" Style="{StaticResource button}" Opacity="0" MouseLeftButtonDown="iClo_MouseLeftButtonDown" ToolTip="{x:Static config:Resources.MenuItemTextClose}" Source="/Wordcards%20Stack%20Gadget;component/Images/cross.png" />
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0" Visibility="Hidden"  Name="gridStatusbar" Margin="3,3,3,3" Height="24" VerticalAlignment="Bottom">
@@ -142,9 +139,9 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="24"/>
                 </Grid.RowDefinitions>
-                <Image Grid.Column="0" Grid.Row="0" Name="iFlip"  Style="{StaticResource button}" MouseLeftButtonDown="iFlip_MouseLeftButtonDown"  ToolTip="Перевернуть" Source="/Wordcards%20Stack%20Gadget;component/Images/direction.png"/>
-                <Image Grid.Column="1" Grid.Row="0" Name="iSave"   Style="{StaticResource button}" MouseLeftButtonDown="iSave_MouseLeftButtonDown"   ToolTip="Сохранить изменения"  Source="/Wordcards%20Stack%20Gadget;component/Images/disk.png"/>
-                <Image Grid.Column="2" Grid.Row="0" Name="iCancel" Style="{StaticResource button}" MouseLeftButtonDown="iCancel_MouseLeftButtonDown" ToolTip="Отменить изменения" Source="/Wordcards%20Stack%20Gadget;component/Images/cancel.png"/>
+                <Image Grid.Column="0" Grid.Row="0" Name="iFlip"  Style="{StaticResource button}" MouseLeftButtonDown="iFlip_MouseLeftButtonDown"  ToolTip="{x:Static config:Resources.ToolTipFlip}" Source="/Wordcards%20Stack%20Gadget;component/Images/direction.png"/>
+                <Image Grid.Column="1" Grid.Row="0" Name="iSave"   Style="{StaticResource button}" MouseLeftButtonDown="iSave_MouseLeftButtonDown"   ToolTip="{x:Static config:Resources.ToolTipSaveChanges}"  Source="/Wordcards%20Stack%20Gadget;component/Images/disk.png"/>
+                <Image Grid.Column="2" Grid.Row="0" Name="iCancel" Style="{StaticResource button}" MouseLeftButtonDown="iCancel_MouseLeftButtonDown" ToolTip="{x:Static config:Resources.ToolTipDiscardChanges}" Source="/Wordcards%20Stack%20Gadget;component/Images/cancel.png"/>
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0" Name="CardContent" Visibility="Visible" Margin="3,28,3,3" MouseLeftButtonDown="CardContent_MouseLeftButtonDown" MouseRightButtonDown="CardContent_MouseRightButtonDown">
@@ -154,14 +151,15 @@
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0" Name="EditEngContent" Margin="3,28,3,3" Visibility="Hidden">
-                <TextBox Style="{StaticResource editableWordTextField}"  VerticalAlignment="Top" Name="edit_Word" ToolTip="Английчский перевод" Text="text" Margin="6,22,6,0" Height="43"/>
-                <TextBox Style="{StaticResource editableTextField}"      VerticalAlignment="Top" Name="edit_Transcription" ToolTip="Транскрипция" Text="[transcription]" Margin="6,71,6,0" Height="24"/>
-                <TextBox Style="{StaticResource editableDescTextField}"  Name="edit_Descriprion" ToolTip="Пример использования" Text="text" Margin="6,101,6,29" AcceptsReturn="True" />
+                <TextBox Style="{StaticResource editableWordTextField}" VerticalAlignment="Top" Name="edit_Word" ToolTip="{x:Static config:Resources.ToolTipWord}" Text="text" Margin="6,22,6,0" Height="43" KeyUp="edit_KeyUp"/>
+                <TextBox Style="{StaticResource editableTextField}"      VerticalAlignment="Top" Name="edit_Transcription" ToolTip="{x:Static config:Resources.ToolTipTranscription}" Text="[transcription]" Margin="6,71,51,0" Height="24" SelectionChanged="edit_Transcription_SelectionChanged" />
+                <ComboBox Height="23" Margin="0,71,6,0" Name="cbSymbols" VerticalAlignment="Top" HorizontalAlignment="Right" Width="39" DataContext="{Binding}" SelectionChanged="cbSymbols_SelectionChanged"/>
+                <TextBox Style="{StaticResource editableDescTextField}"  Name="edit_Descriprion" ToolTip="{x:Static config:Resources.ToolTipExample}" Text="text" Margin="6,101,6,29" AcceptsReturn="True" />
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="0" Name="EditRusContent" Margin="3,28,3,3" Visibility="Hidden">
-                <TextBox Style="{StaticResource editableWordTextField}" ToolTip="Русский перевод" Name="edit_RusWord" Text="text" Margin="6,22,6,0" Height="43"/>
-                <TextBox Style="{StaticResource editableDescTextField}" ToolTip="Перевод примера" Name="edit_RusDescriprion" Text="text" Margin="6,101,6,29" />
+                <TextBox Style="{StaticResource editableWordTextField}" ToolTip="{x:Static config:Resources.ToolTipWordTranslate}" Name="edit_RusWord" Text="text" Margin="6,22,6,0" Height="43" KeyUp="edit_KeyUp" />
+                <TextBox Style="{StaticResource editableDescTextField}" ToolTip="{x:Static config:Resources.ToolTipExampleTranslate}" Name="edit_RusDescriprion" Text="text" Margin="6,101,6,29" />
             </Grid>
 
             <!--

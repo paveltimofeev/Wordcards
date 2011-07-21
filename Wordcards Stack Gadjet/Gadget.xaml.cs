@@ -15,6 +15,7 @@ using presenter;
 using System.Windows.Interop;
 using System.Runtime.InteropServices;
 using System.Timers;
+using System.Configuration;
 
 namespace Wordcards_Stack_Gadget
 {
@@ -23,7 +24,18 @@ namespace Wordcards_Stack_Gadget
     /// </summary>
     public partial class Gadget : Window, presenter.ICardInvokeableStackView
     {
+        /// <summary>
+        /// Configuration
+        /// </summary>
+        Configuration cfg;
+        /// <summary>
+        /// Presenter
+        /// </summary>
         CardStackPresenter presenter;
+        /// <summary>
+        /// Cursor position of Edit Transcription textbox.
+        /// </summary>
+        int editTranscriptionIndex = 0;
 
         #region Resize border
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -46,9 +58,25 @@ namespace Wordcards_Stack_Gadget
         {
             InitializeComponent();
 
-            this.SourceInitialized += new EventHandler(Gadjet_SourceInitialized);
+            cfg = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
 
-            presenter = new CardStackPresenter(this);
+            Left = Int32.Parse(cfg.AppSettings.Settings["LocationX"].Value);
+            Top = Int32.Parse(cfg.AppSettings.Settings["LocationY"].Value);
+            Width = Int32.Parse(cfg.AppSettings.Settings["Width"].Value);
+            Height = Int32.Parse(cfg.AppSettings.Settings["Height"].Value);
+
+            string symbols = cfg.AppSettings.Settings["Symbols"].Value;
+            if (!string.IsNullOrWhiteSpace(symbols))
+            {
+                string[] arr = symbols.Split(new char[] { ';' });
+                cbSymbols.ItemsSource = arr;
+            }
+
+            SourceInitialized += new EventHandler(Gadjet_SourceInitialized);
+
+            int defaultCardRank = Int32.Parse(cfg.AppSettings.Settings["DefaultRank"].Value);
+            if (defaultCardRank < 0) defaultCardRank = 10;
+            presenter = new CardStackPresenter(this, defaultCardRank);
             presenter.NextCard();
         }
 
@@ -226,6 +254,15 @@ namespace Wordcards_Stack_Gadget
 
         #endregion
 
+        private void ShowGrid(Grid grid)
+        {
+            CardContent.Visibility = Visibility.Hidden;
+            EditEngContent.Visibility = Visibility.Hidden;
+            EditRusContent.Visibility = Visibility.Hidden;
+
+            grid.Visibility = Visibility.Visible;
+        }
+
         private void Grid_MouseEnter(object sender, MouseEventArgs e)
         {
             gridToolbar.Background = 
@@ -269,15 +306,6 @@ namespace Wordcards_Stack_Gadget
             presenter.Flip();
         }
 
-        private void ShowGrid(Grid grid)
-        {
-            CardContent.Visibility = Visibility.Hidden;
-            EditEngContent.Visibility = Visibility.Hidden;
-            EditRusContent.Visibility = Visibility.Hidden;
-
-            grid.Visibility = Visibility.Visible;
-        }
-
         private void iPrevCard_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             presenter.PreviouseCard();
@@ -307,6 +335,92 @@ namespace Wordcards_Stack_Gadget
                 default:
                     break;
             }
+        }
+
+        private void Window_LocationChanged(object sender, EventArgs e)
+        {
+            cfg.AppSettings.Settings["LocationX"].Value = Left.ToString();
+            cfg.AppSettings.Settings["LocationY"].Value = Top.ToString();
+            cfg.Save();
+        }
+
+        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            cfg.AppSettings.Settings["Width"].Value = Width.ToString();
+            cfg.AppSettings.Settings["Height"].Value = Height.ToString();
+            cfg.Save();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            switch (((MenuItem)sender).Name)
+            {
+                case "prvCard":
+                    iPrevCard_MouseLeftButtonDown(sender, null);
+                    break;
+                case "nxtCard":
+                    iNextCard_MouseLeftButtonDown(sender, null);
+                    break;
+                case "sv":
+                    //presenter.ExportAs("export.xml");
+                    MessageBox.Show("Not implemented yet.");
+                    break;
+                case "ld":
+                    //presenter.LoadFrom("import.xml");
+                    MessageBox.Show("Not implemented yet.");
+                    break;
+                case "plyMode":
+                    iPla_MouseLeftButtonDown(sender, null);
+                    break;
+                case "addCard":
+                    iNew_MouseLeftButtonDown(sender, null);
+                    break;
+                case "chgCard":
+                    iEdt_MouseLeftButtonDown(sender, null);
+                    break;
+                case "delCard":
+                    iDel_MouseLeftButtonDown(sender, null);
+                    break;
+                case "abt":
+                    MessageBox.Show("Simple WPF gadget for learning words and phrases.\r\nFor mor infotmation you should visit \r\nhttps://github.com/paveltimofeev/Wordcards");
+                    break;
+                case "cls":
+                    iClo_MouseLeftButtonDown(sender, null);
+                    break;
+            }
+        }
+
+        /// <summary>
+        /// [TEST]
+        /// Text scalability
+        /// </summary>
+        private void edit_KeyUp(object sender, KeyEventArgs e)
+        {
+            TextBox refer = (TextBox)sender;
+
+            if (refer.LineCount != 1)
+                refer.FontSize--;
+            else
+            {
+                Rect rect = refer.GetRectFromCharacterIndex(refer.Text.Length);
+                if (rect.BottomRight.X / 2 < refer.ActualWidth / 2)
+                    refer.FontSize++;
+            }
+        }
+
+        private void cbSymbols_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            edit_Transcription.Text = string.Format("{0}{1}{2}", edit_Transcription.Text.Substring(0, editTranscriptionIndex), cbSymbols.SelectedValue, edit_Transcription.Text.Substring(editTranscriptionIndex));
+            edit_Transcription.Focus();
+            edit_Transcription.CaretIndex = editTranscriptionIndex;
+        }
+
+        /// <summary>
+        /// Handle change of cursor position in the Edit Transcription textbox
+        /// </summary>
+        private void edit_Transcription_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            editTranscriptionIndex = edit_Transcription.CaretIndex;
         }
     }
 }

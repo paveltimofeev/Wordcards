@@ -1,2 +1,39 @@
 <?xml version="1.0"?>
-<ArrayOfCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Card>
+    <Eng>Test card</Eng>
+    <EngDesc>This is test card</EngDesc>
+    <Transcription>[Təst kæ:rd]</Transcription>
+    <Rus>text</Rus>
+    <RusDesc>text</RusDesc>
+    <WordType>0</WordType>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>New test</Eng>
+    <EngDesc>This is new test</EngDesc>
+    <Transcription>[Nju: test]</Transcription>
+    <Rus>Новый тест</Rus>
+    <RusDesc>Это новый тест</RusDesc>
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>Another one</Eng>
+    <EngDesc />
+    <Transcription />
+    <Rus>Еще один</Rus>
+    <RusDesc />
+    <WordType>0</WordType>
+    <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>No more tests</Eng>
+    <EngDesc />
+    <Transcription />
+    <Rus>Больше никаких тестов </Rus>
+    <RusDesc />
+    <WordType>0</WordType>
+    <Rank>6</Rank>
+  </Card>
+</ArrayOfCard>

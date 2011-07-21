@@ -12,7 +12,8 @@ namespace presenter
     public class CardFacade
     {
         public List<Card> Cards { get; private set; }
-        Transformer trans = new Transformer("style_fb2.xslt");
+        private Transformer trans = new Transformer("style_fb2.xslt");
+        private int defaultCardRank = 0;
 
         public CardFacade()
         {
@@ -25,7 +26,7 @@ namespace presenter
         public int AddCard(string eng, string engDesc, string transcription, string rus, string rusDesc)
         {
             int result = -1;
-            Card card = new Card() { Eng = eng, EngDesc = engDesc, Transcription = transcription, Rus = rus, RusDesc = rusDesc, Rank = 10 };
+            Card card = new Card(defaultCardRank) { Eng = eng, EngDesc = engDesc, Transcription = transcription, Rus = rus, RusDesc = rusDesc, Rank = 10 };
             if (!Cards.Contains(card))
             {
                 Cards.Add(card);
@@ -200,6 +201,11 @@ namespace presenter
         public void SaveDatabase()
         {
             SaveXML("default.xml");
+        }
+
+        public void SetDefaultCardRank(int defaultRank)
+        {
+            this.defaultCardRank = defaultRank;
         }
     }
 }

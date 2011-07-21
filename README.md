@@ -14,3 +14,12 @@ This solution uses MVP pattern and consist of several projects, including differ
 
 It can be runned at OS Microsoft Windows XP / Vista / Win7 with Microsoft .NET Framework 4.0.
 
+**Whats new or history of changes**
+--------------------------
+
+- [BUG] New card had 0 rank, now "Wordcards Stack Gadget.exe.Config" file has parameter DefaultRank that contains a default value of rank for new Card.
+- Wordcards Stack Gadget remembers itself size and position
+- Added combobox with specefic transcription symbols, you also can modify this list with "Symbols" parameter of "Wordcards Stack Gadget.exe.Config" configuration file.
+- Completed some corrections in user interface (such as border colors of textbox). 
+- Added scalability for the words textboxes (as test)
+- Added context menu for title

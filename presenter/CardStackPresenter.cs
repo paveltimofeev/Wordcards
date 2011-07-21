@@ -32,10 +32,15 @@ namespace presenter
         ///View's bring-on-top method handler
         private delegate void BringOnTopHandler();
 
-        public CardStackPresenter(ICardInvokeableStackView view)
+        public CardStackPresenter(ICardInvokeableStackView view): this(view, 10)
+        {
+            ;
+        }
+        public CardStackPresenter(ICardInvokeableStackView view, int defaultRank)
         {
             this.view = view;
             base.OpenDatabase();
+            model.SetDefaultCardRank(defaultRank);
 
             playTimer.Interval = GetRandomPlayTimerDelay(1, 10);
             playTimer.Stop();

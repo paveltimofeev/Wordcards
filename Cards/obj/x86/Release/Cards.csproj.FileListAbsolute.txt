@@ -11,10 +11,6 @@ d:\my documents\visual studio 2010\Projects\Cards\Cards\obj\x86\Release\Generate
 d:\my documents\visual studio 2010\Projects\Cards\Cards\obj\x86\Release\Cards.exe
 d:\my documents\visual studio 2010\Projects\Cards\Cards\obj\x86\Release\Cards.pdb
 d:\my documents\visual studio 2010\Projects\Cards\Cards\obj\x86\Release\Cards.MainForm.resources
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\Cards.exe
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\Cards.pdb
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\Cards.exe
-d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\Cards.pdb
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\presenter.dll
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\model.dll
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\presenter.pdb
@@ -39,3 +35,5 @@ C:\Users\Pavel\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\GenerateResource.r
 C:\Users\Pavel\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\GenerateResource.write.1.tlog
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\Editor.exe
 d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\obj\x86\Release\Editor.pdb
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\Editor.exe
+d:\Documents and Settings\Timofp01\Desktop\My Dropbox\Cards\Cards\bin\Release\Editor.pdb

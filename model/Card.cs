@@ -19,6 +19,12 @@ namespace model
         public int WordType { get; set; }
         public int Rank { get; set; }
 
+        public Card():this(0) { ;}
+        public Card(int rank)
+        {
+            Rank = rank;
+        }
+
         public override bool Equals(object obj)
         {
             Card temp = obj as Card;

@@ -7,7 +7,7 @@
     <Rus>принятие</Rus>
     <RusDesc>Что обеспечит принятие новой платформы Andriod?</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>advance</Eng>
@@ -16,7 +16,7 @@
     <Rus>успех</Rus>
     <RusDesc>Значительные успехи</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>6</Rank>
   </Card>
   <Card>
     <Eng>along with ...</Eng>
@@ -25,7 +25,7 @@
     <Rus>вместе с ...</Rus>
     <RusDesc>Чайник был доставлен вместе с чаем.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>beyond</Eng>
@@ -34,7 +34,7 @@
     <Rus>далеко</Rus>
     <RusDesc>по ту сторону океана</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>buzz</Eng>
@@ -42,7 +42,7 @@
     <Rus>гул, жжужание, суматоха</Rus>
     <RusDesc>индустриальный шум (суматоха)</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>6</Rank>
   </Card>
   <Card>
     <Eng>circumstance</Eng>
@@ -51,25 +51,25 @@
     <Rus>обстоятельство</Rus>
     <RusDesc>Вы можете обнаружить что в некоторых обстоятельствах лучше...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
-    <Eng>to cleanse</Eng>
+    <Eng>cleanse</Eng>
     <EngDesc> to cleanse the soul</EngDesc>
     <Transcription>[klenz]</Transcription>
     <Rus>чистить</Rus>
     <RusDesc>очищать душу</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>2</WordType>
+    <Rank>9</Rank>
   </Card>
   <Card>
-    <Eng>to commit</Eng>
+    <Eng>commit</Eng>
     <EngDesc>commit changes</EngDesc>
     <Transcription>[kə'mɪt]</Transcription>
     <Rus>фиксировать (принимать)</Rus>
     <RusDesc>зафиксировать изменения. принять изменения.</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>6</WordType>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>commitment</Eng>
@@ -77,8 +77,8 @@
     <Transcription>[kə'mɪtmənt]</Transcription>
     <Rus>обязательство</Rus>
     <RusDesc>семейные обязанности</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>6</WordType>
+    <Rank>6</Rank>
   </Card>
   <Card>
     <Eng>concise</Eng>
@@ -87,7 +87,7 @@
     <Rus>краткий</Rus>
     <RusDesc>... придерживаться написания более краткого кода.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>concisely</Eng>
@@ -97,17 +97,18 @@
     <Rus>кратко</Rus>
     <RusDesc>кратко, сжато, лаконично; выразительно</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
-    <Eng>to decouple</Eng>
+    <Eng>decouples</Eng>
     <EngDesc>it neatly decouples your application logic.
 =separate</EngDesc>
     <Transcription>[,di:'kʌpl]</Transcription>
-    <Rus />
-    <RusDesc>... посредством увеличения размера ресурсов разметки...</RusDesc>
+    <Rus>расцеплять
+разъединять</Rus>
+    <RusDesc>...он чётко разъединяет логику вашего приложения.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>desirable</Eng>
@@ -117,8 +118,8 @@ Desirable son.</EngDesc>
     <Rus>желаемый</Rus>
     <RusDesc>Желаемый вес. 
 Желанный сын.</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>3</WordType>
+    <Rank>5</Rank>
   </Card>
   <Card>
     <Eng>desire for</Eng>
@@ -127,7 +128,7 @@ Desirable son.</EngDesc>
     <Rus>жажда</Rus>
     <RusDesc>жажда знаний</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>despite </Eng>
@@ -135,7 +136,7 @@ Desirable son.</EngDesc>
     <Transcription>[dɪs'paɪt]</Transcription>
     <Rus>несмотря на</Rus>
     <RusDesc>Несмотря на название, ...</RusDesc>
-    <WordType>0</WordType>
+    <WordType>6</WordType>
     <Rank>0</Rank>
   </Card>
   <Card>
@@ -156,16 +157,16 @@ to ensure that a device can run...</EngDesc>
 раскручивать</Rus>
     <RusDesc>Художник почерпнул свои идеи о форме и цвете из работ более старого мастера.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
-    <Eng>to explain</Eng>
+    <Eng>explain</Eng>
     <EngDesc>This chapter explained that...</EngDesc>
     <Transcription>[ɪks'pleɪn]</Transcription>
-    <Rus>нападать с целью грабежа </Rus>
-    <RusDesc />
-    <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rus>объяснять</Rus>
+    <RusDesc>В этой главе объяснялось что ...</RusDesc>
+    <WordType>6</WordType>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>handset</Eng>
@@ -173,8 +174,8 @@ to ensure that a device can run...</EngDesc>
     <Transcription>['hæn(d)set] </Transcription>
     <Rus>телефонная трубка</Rus>
     <RusDesc>мобильные телефонные трубки</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>1</WordType>
+    <Rank>6</Rank>
   </Card>
   <Card>
     <Eng>hugely</Eng>
@@ -183,16 +184,25 @@ to ensure that a device can run...</EngDesc>
     <Rus>черезвычайно</Rus>
     <RusDesc>Карты Google Maps for Mobile стали черезвычайно популярны</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
+  </Card>
+  <Card>
+    <Eng>humanity</Eng>
+    <EngDesc>His work has the ripeness of the 18th century, and its rough humanities.</EngDesc>
+    <Transcription>[hju:'mænɪtɪ]</Transcription>
+    <Rus>человечество</Rus>
+    <RusDesc>Его произведение отличалась зрелостью 18-го века и грубостью, присущей людям того времени.</RusDesc>
+    <WordType>1</WordType>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>impressed</Eng>
     <EngDesc>We were particularly impressed that our room was cleaned every day and towels and bedding changed daily too!</EngDesc>
     <Transcription>['ɪmpresed]</Transcription>
     <Rus>пораженный</Rus>
-    <RusDesc>Мы были особенно поражены что наш номер убирали и полотненца с постельным бельём менялись ежедневно.</RusDesc>
+    <RusDesc>Мы были поражены что наш номер убирали и полотненца с постельным бельём менялись ежедневно.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>incorporate</Eng>
@@ -201,7 +211,7 @@ to ensure that a device can run...</EngDesc>
     <Rus>соединять</Rus>
     <RusDesc>... инструменты которые соединяют в себе камеры, плееры и GPS.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>intent</Eng>
@@ -211,8 +221,8 @@ to ensure that a device can run...</EngDesc>
 = purpose</Rus>
     <RusDesc>намерение убить
 намерение использовать в комерческих целях</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>6</WordType>
+    <Rank>5</Rank>
   </Card>
   <Card>
     <Eng>keeping</Eng>
@@ -223,7 +233,7 @@ from the application code helps keep the code more concise.</EngDesc>
 хранение</Rus>
     <RusDesc>хранение визуального проектирования отдельно от кода приложения помогает поддерживать (писать) код более кратким.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>lack</Eng>
@@ -231,17 +241,17 @@ from the application code helps keep the code more concise.</EngDesc>
     <Transcription>[læk]</Transcription>
     <Rus>недостаток</Rus>
     <RusDesc>недостаток открытости</RusDesc>
-    <WordType>0</WordType>
-    <Rank>1</Rank>
+    <WordType>1</WordType>
+    <Rank>10</Rank>
   </Card>
   <Card>
-    <Eng>to lay out</Eng>
+    <Eng>lay out</Eng>
     <EngDesc>The goods for sale were laid out attractively.</EngDesc>
     <Transcription>[leɪ] [aut]</Transcription>
-    <Rus>выкладывать</Rus>
-    <RusDesc>Продукты для продажи выложили привлекательно.</RusDesc>
+    <Rus>выставлять</Rus>
+    <RusDesc>Товары на продажу были выставлены так, что привлекали внимание.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>meanwhile</Eng>
@@ -250,7 +260,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>тем временем</Rus>
     <RusDesc>Разработчики, тем временем, имеют возможность ...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>11</Rank>
   </Card>
   <Card>
     <Eng>neatly</Eng>
@@ -267,8 +277,8 @@ from the application code helps keep the code more concise.</EngDesc>
     <Transcription>['nɔvɪs]</Transcription>
     <Rus>новичёк</Rus>
     <RusDesc>полный новичёк в програмировании</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>1</WordType>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>offer</Eng>
@@ -276,8 +286,8 @@ from the application code helps keep the code more concise.</EngDesc>
     <Transcription>['ɔfə]</Transcription>
     <Rus>предлагать</Rus>
     <RusDesc>Андроид предлагает разработчикам возможность создавать инновационные програмные продукты.</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>6</WordType>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>preferred way</Eng>
@@ -286,7 +296,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>предпочтительный способ</Rus>
     <RusDesc>...это предпочтительный способ реализации вашего пользовательского интерфейса...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>6</Rank>
   </Card>
   <Card>
     <Eng>release</Eng>
@@ -306,7 +316,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>грубо</Rus>
     <RusDesc>Activity это грубо говоря эквивалент Form</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>significiant (sign)</Eng>
@@ -325,7 +335,7 @@ from the application code helps keep the code more concise.</EngDesc>
 похожий</Rus>
     <RusDesc>подобный контролам (подобный элементам управления)</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>5</Rank>
   </Card>
   <Card>
     <Eng>skeleton</Eng>
@@ -334,7 +344,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>основа</Rus>
     <RusDesc>Следующий сниппет показывает основу кода для Activity-based класса.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>smooth</Eng>
@@ -343,7 +353,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus> гладкий спокойный</Rus>
     <RusDesc>Регистрация прошла гладко (спокойно).</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>snippet</Eng>
@@ -353,16 +363,17 @@ from the application code helps keep the code more concise.</EngDesc>
 кусок</Rus>
     <RusDesc>кусок кода</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>substitution</Eng>
     <EngDesc>substitution of layout designs and individual UI elements...</EngDesc>
     <Transcription>[,sʌbstɪ'tju:ʃ(ə)n]</Transcription>
-    <Rus>замена</Rus>
+    <Rus>замена 
+замещение</Rus>
     <RusDesc>замена дизайна разметки и индивидуальных элементов UI</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>11</Rank>
   </Card>
   <Card>
     <Eng>through</Eng>
@@ -372,7 +383,7 @@ from the application code helps keep the code more concise.</EngDesc>
 сквозь</Rus>
     <RusDesc>Темза протекает через Лондон.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>to aim to</Eng>
@@ -381,7 +392,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>стремиться</Rus>
     <RusDesc>Темза протекает через Лондон.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>11</Rank>
   </Card>
   <Card>
     <Eng>to aim to</Eng>
@@ -390,7 +401,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>стремится</Rus>
     <RusDesc>Этот набор инструментов стремится сделать создание интерактивных систем меню...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>to be allocated</Eng>
@@ -399,7 +410,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>быть размещённым</Rus>
     <RusDesc>Нас разместили в номере на третьем этаже.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>to be allocated</Eng>
@@ -408,7 +419,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>если не</Rus>
     <RusDesc>Если вы не мазохист, вы скорей всего захотите использовать IDE.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>to be attracted for</Eng>
@@ -436,7 +447,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>определять </Rus>
     <RusDesc>Разметка пользовательского интерфейса определяется в файле main.xml.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>3</Rank>
   </Card>
   <Card>
     <Eng>to desire</Eng>
@@ -445,7 +456,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>желать</Rus>
     <RusDesc>Чего вы больше всего желаете в жизни?</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>to extend</Eng>
@@ -454,7 +465,7 @@ from the application code helps keep the code more concise.</EngDesc>
     <Rus>расширять</Rus>
     <RusDesc>Мы продолжили (расширили) ограду до конца нашего участка.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>to fit together</Eng>
@@ -464,16 +475,26 @@ fit together.</EngDesc>
     <Rus>подходить друг-к-другу</Rus>
     <RusDesc>Они легки для понимания и хорошо показывают как приложения Android подходят друг-к-другу.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>to inflate</Eng>
     <EngDesc>...by inflating a layout resource...</EngDesc>
     <Transcription>[ɪn'fleɪt]</Transcription>
-    <Rus>раздуваться</Rus>
+    <Rus>надувать
+увеличиваться в размерах</Rus>
     <RusDesc>... посредством увеличения размера ресурсов разметки...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
+  </Card>
+  <Card>
+    <Eng>to leverage</Eng>
+    <EngDesc>The newly formed alliance intends to leverage key solutions among the various government and semi-government offices in the UAE</EngDesc>
+    <Transcription>['li:vərɪdʒ]</Transcription>
+    <Rus>использовать</Rus>
+    <RusDesc>Вновь образованный альянс намерен использовать ключевые решения между различными государственными и полу-правительственные офисами в ОАЭ</RusDesc>
+    <WordType>0</WordType>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>ultimate</Eng>
@@ -482,8 +503,8 @@ fit together.</EngDesc>
     <Rus>окончательный; 
 максимальный</Rus>
     <RusDesc>Виста максимальная редакция.</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>6</WordType>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>ultimately</Eng>
@@ -491,8 +512,8 @@ fit together.</EngDesc>
     <Transcription>['ʌltɪmətlɪ]</Transcription>
     <Rus>в конечном счёте</Rus>
     <RusDesc>Он мог бежать, но в конечном счёте, не спрятался от технологий.</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>4</WordType>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>versatile</Eng>
@@ -501,7 +522,7 @@ fit together.</EngDesc>
     <Rus>многогранный</Rus>
     <RusDesc>маленькие, стильные, многогранные современные мобильные телефоны. </RusDesc>
     <WordType>0</WordType>
-    <Rank>2</Rank>
+    <Rank>11</Rank>
   </Card>
   <Card>
     <Eng>whether</Eng>
@@ -509,8 +530,8 @@ fit together.</EngDesc>
     <Transcription>['weðə] </Transcription>
     <Rus>ли, или</Rus>
     <RusDesc>Инженер ли вы или девелопер...</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>6</WordType>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>widespread</Eng>
@@ -518,8 +539,8 @@ fit together.</EngDesc>
     <Transcription>['waɪdspred]</Transcription>
     <Rus>широко распространённый</Rus>
     <RusDesc>широкомасштабные последствия</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
+    <WordType>3</WordType>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>seamless</Eng>
@@ -528,16 +549,16 @@ fit together.</EngDesc>
     <Rus>бесшовный</Rus>
     <RusDesc>чулки без шва</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
-    <Eng>to be somewhat of</Eng>
+    <Eng>somewhat</Eng>
     <EngDesc>She is somewhat of an expert.</EngDesc>
     <Transcription>['sʌmwɔt]</Transcription>
-    <Rus>быть кем-то вроде</Rus>
-    <RusDesc>Она кто-то вроде эксперта.</RusDesc>
+    <Rus>что-то</Rus>
+    <RusDesc>Она кто-то вроде эксперта-консультанта.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>4</Rank>
   </Card>
   <Card>
     <Eng>nebulous</Eng>
@@ -546,7 +567,7 @@ fit together.</EngDesc>
     <Rus>неопределенный</Rus>
     <RusDesc>если что-то неопределено</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>instantly</Eng>
@@ -555,7 +576,7 @@ fit together.</EngDesc>
     <Rus>немедленно</Rus>
     <RusDesc>меняется немедленно</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>noticeable</Eng>
@@ -564,7 +585,7 @@ fit together.</EngDesc>
     <Rus>заметный</Rus>
     <RusDesc>без заметных задержек</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>jarring</Eng>
@@ -573,7 +594,7 @@ fit together.</EngDesc>
     <Rus>раздражающий</Rus>
     <RusDesc>раздражающая смена (темы)</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>transition</Eng>
@@ -582,7 +603,7 @@ fit together.</EngDesc>
     <Rus>смена (темы)</Rus>
     <RusDesc>меняется немедленно</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>degrade</Eng>
@@ -591,7 +612,7 @@ fit together.</EngDesc>
     <Rus>ухудшаться</Rus>
     <RusDesc>Скорость мобильнного телефона не должна уменьшаться со временем.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>2</Rank>
   </Card>
   <Card>
     <Eng>consistent</Eng>
@@ -600,7 +621,7 @@ fit together.</EngDesc>
     <Rus>совместимый</Rus>
     <RusDesc>совместимый интерв\фейс</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>regardless of</Eng>
@@ -609,7 +630,16 @@ fit together.</EngDesc>
     <Rus>несмотря на</Rus>
     <RusDesc>несмотря на перезагрузку</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
+  </Card>
+  <Card>
+    <Eng>still</Eng>
+    <EngDesc>You can still create applications that are unfamilar, but even they should integrate cleanly with environment.</EngDesc>
+    <Transcription>[stɪl]</Transcription>
+    <Rus>тем не менее</Rus>
+    <RusDesc>Тем не менее Вы можете создавать приложения которые никому неизвестны, но даже они должны чисто интегрироваться с окружающей средой.</RusDesc>
+    <WordType>0</WordType>
+    <Rank>11</Rank>
   </Card>
   <Card>
     <Eng>to persist</Eng>
@@ -618,23 +648,20 @@ fit together.</EngDesc>
     <Rus>удерживать(ся)</Rus>
     <RusDesc>Сохраняются (удерживаются) риски возникновения пожара в реакторе.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
   </Card>
   <Card>
     <Eng>to suspend</Eng>
     <Transcription>[səs'pend]</Transcription>
     <Rus>приостанавливать</Rus>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>bandwidth</Eng>
-    <EngDesc>bandwidth providers</EngDesc>
-    <Transcription>[bændwɪdθ]</Transcription>
     <Rus>полоса частот</Rus>
-    <RusDesc>провайдеры частот</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>out of sight</Eng>
@@ -643,7 +670,7 @@ fit together.</EngDesc>
     <Rus>невидим</Rus>
     <RusDesc>После примерно 2-х недель отсутствия, он показался на ливийском телевидении.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>to be concerned</Eng>
@@ -661,7 +688,7 @@ fit together.</EngDesc>
     <Rus>временно отстранять</Rus>
     <RusDesc>Восемь подростков были временно отстранены от занятий в их школе в Напервилле, штат Иллиноис.</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
     <Eng>as far as</Eng>
@@ -669,13 +696,25 @@ fit together.</EngDesc>
     <Rus>До тех пор пока...</Rus>
     <RusDesc>До тех пор пока ваши пользователи чем-либо заняты...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>10</Rank>
+  </Card>
+  <Card>
+    <Eng>as long as</Eng>
+    <Rus>до тех пор, пока</Rus>
+    <WordType>0</WordType>
+    <Rank>7</Rank>
+  </Card>
+  <Card>
+    <Eng>as many as</Eng>
+    <Rus>столько, сколько</Rus>
+    <WordType>0</WordType>
+    <Rank>11</Rank>
   </Card>
   <Card>
     <Eng>as large as life</Eng>
     <Rus>во всей красе</Rus>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>8</Rank>
   </Card>
   <Card>
     <Eng>as opposed to</Eng>
@@ -683,7 +722,7 @@ fit together.</EngDesc>
     <Rus>по сравнению с</Rus>
     <RusDesc>по сравнению с бумажной версией, электронная почта быстрее</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>4</Rank>
   </Card>
   <Card>
     <Eng>as per</Eng>
@@ -691,7 +730,15 @@ fit together.</EngDesc>
     <Rus>согласно</Rus>
     <RusDesc>согласно заказу</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
+  </Card>
+  <Card>
+    <Eng>as seen from</Eng>
+    <EngDesc>as seen from your order</EngDesc>
+    <Rus>как видно из</Rus>
+    <RusDesc>Как видно из вашего заказа</RusDesc>
+    <WordType>0</WordType>
+    <Rank>5</Rank>
   </Card>
   <Card>
     <Eng>for a fee</Eng>
@@ -699,16 +746,38 @@ fit together.</EngDesc>
     <Rus>за отдельную плату</Rus>
     <RusDesc>Сделать за отдельную плату</RusDesc>
     <WordType>0</WordType>
-    <Rank>1</Rank>
+    <Rank>10</Rank>
   </Card>
   <Card>
     <Eng>get off the hook</Eng>
-    <EngDesc />
-    <Transcription>[gət ɔv ði: huk]</Transcription>
     <Rus>выпутаться из положения</Rus>
-    <RusDesc />
+    <WordType>0</WordType>
+    <Rank>11</Rank>
+  </Card>
+  <Card>
+    <Eng>for its own sake</Eng>
+    <EngDesc>for my sake</EngDesc>
+    <Transcription>[seɪk]</Transcription>
+    <Rus>ради себя</Rus>
+    <RusDesc>ради меня</RusDesc>
+    <WordType>0</WordType>
+    <Rank>8</Rank>
+  </Card>
+  <Card>
+    <Eng>hijacked</Eng>
+    <EngDesc>hijacked track</EngDesc>
+    <Transcription>['haɪdʒækd]</Transcription>
+    <Rus>похищенный</Rus>
+    <RusDesc>похищенный фургон</RusDesc>
     <WordType>0</WordType>
     <Rank>0</Rank>
+  </Card>
+  <Card>
+    <Eng>hijack</Eng>
+    <Transcription>['haɪdʒæk]</Transcription>
+    <Rus>нападать с целью грабежа </Rus>
+    <WordType>0</WordType>
+    <Rank>9</Rank>
   </Card>
   <Card>
     <Eng>clarity</Eng>
@@ -717,16 +786,13 @@ fit together.</EngDesc>
     <Rus>ясность</Rus>
     <RusDesc>Для большей ясности и простоты, многие из примеров в этой книге...</RusDesc>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>7</Rank>
   </Card>
   <Card>
-    <Eng>lookup</Eng>
-    <EngDesc>network lookup</EngDesc>
-    <Transcription />
-    <Rus>поиск</Rus>
-    <RusDesc>поиск сети</RusDesc>
+    <Eng>network lookup</Eng>
+    <Rus>поиск сети</Rus>
     <WordType>0</WordType>
-    <Rank>0</Rank>
+    <Rank>6</Rank>
   </Card>
   <Card>
     <Eng>complicated</Eng>
@@ -736,95 +802,5 @@ fit together.</EngDesc>
     <RusDesc>это не очень запутанно (не очень сложно)</RusDesc>
     <WordType>0</WordType>
     <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>particular</Eng>
-    <EngDesc>to take particular care</EngDesc>
-    <Transcription>[pəˈtɪkjulə]</Transcription>
-    <Rus>особый</Rus>
-    <RusDesc>обратить особое внимание</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>mention</Eng>
-    <EngDesc>As mentioned before,...</EngDesc>
-    <Transcription>[ˈmenʃən]</Transcription>
-    <Rus>упоминание</Rus>
-    <RusDesc>Как упоминалось ранее,...</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>to handle</Eng>
-    <EngDesc>handled by run time</EngDesc>
-    <Transcription />
-    <Rus>обрабатывать (управлять)</Rus>
-    <RusDesc>обрабатывается (управляется) средой выполнения</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>affected</Eng>
-    <EngDesc>affected component</EngDesc>
-    <Transcription />
-    <Rus>затронутый</Rus>
-    <RusDesc>затронутый компонент</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>to do whatever</Eng>
-    <EngDesc>doing whatever it takes to ensure that the device remains</EngDesc>
-    <Transcription>[wɔtˈevə]</Transcription>
-    <Rus>делать что угодно</Rus>
-    <RusDesc>делать все возможное, чтобы устройство не зависало.</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>Augmented</Eng>
-    <EngDesc>Augmented reality</EngDesc>
-    <Transcription>[ˈɔ:ɡmənted]</Transcription>
-    <Rus>Дополненный</Rus>
-    <RusDesc>Дополненная (расширенная) реальность</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>i'm just about to start</Eng>
-    <EngDesc />
-    <Transcription />
-    <Rus>я как раз начинаю...</Rus>
-    <RusDesc />
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>have you finished to [do smth-ing] ?</Eng>
-    <EngDesc>Have you finish to coding? Have you done the coding?</EngDesc>
-    <Transcription />
-    <Rus>Ты закончил [делать что-либо] ?</Rus>
-    <RusDesc>Ты закончил писать код?</RusDesc>
-    <WordType>0</WordType>
-    <Rank>0</Rank>
-  </Card>
-  <Card>
-    <Eng>I'v just done it.</Eng>
-    <EngDesc />
-    <Transcription />
-    <Rus>Я только что сделал это.</Rus>
-    <RusDesc />
-    <WordType>0</WordType>
-    <Rank>3</Rank>
-  </Card>
-  <Card>
-    <Eng>You will have to ...</Eng>
-    <EngDesc>You will have to go outside and by some cofee. Instant, please.</EngDesc>
-    <Transcription />
-    <Rus>Тебе придётся ...</Rus>
-    <RusDesc>Тебе придётся сходить и купить немного кофе. Растворимый, пожалуйста.</RusDesc>
-    <WordType>0</WordType>
-    <Rank>1</Rank>
   </Card>
 </ArrayOfCard>
